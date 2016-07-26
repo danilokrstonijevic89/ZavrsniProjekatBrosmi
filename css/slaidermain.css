@@ -1,0 +1,78 @@
+.slider .carousel-indicators .active {
+    width: 14px;
+    height: 14px;
+}
+.slider .carousel-indicators {
+    left: 50%;
+    bottom: 10%;
+    width: auto;
+    margin-left: -23px;
+    display: inline-block;
+}
+.slider .carousel-inner .right{
+    background-image: none;
+}
+.slider .carousel-inner .left{
+    background-image: none;
+}
+.slider .description{
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    margin-left: -129px;
+}
+.slider .description p{
+     font-family: 'PT Sans', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+    margin-left: 25px;
+}
+.slider .carousel-inner{
+    position: relative;
+}
+.slider .carousel-inner .description h1{
+   font-family: 'Playball', cursive;
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.slider .carousel-inner .img-circle{
+    width: 100%;
+    max-width: 430px;
+    max-height: 430px;
+    margin-top: 60px;
+}
+.slider .carousel-inner{
+    
+}
+.slider .carousel-inner .priceCircle{
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    top: 70%;
+    right: 7%;
+    background-image: url('style_images/priceCircle.png');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 90px 90px;
+    color: #fff;
+    line-height: 25px;
+    font-size: 10px;
+}
+
+.slider .carousel-inner .priceCircle p:first-of-type{
+    line-height: 25px;
+    font-size: 22px;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 25px;
+    margin-bottom: 0px;
+}
+.slider .carousel-inner .priceCircle p:last-of-type{
+    line-height: 15px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
