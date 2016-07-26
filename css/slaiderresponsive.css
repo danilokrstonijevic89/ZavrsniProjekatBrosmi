@@ -1,3 +1,4 @@
+
 @media only screen and (min-width: 768px){
     
     .slider .description {
@@ -52,6 +53,23 @@
 .img-responsive {
     margin-left: 330px;
     margin-top: 50px;
+}
+.slider .carousel-indicators li {
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin: 1px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #000;
+    background-color: rgba(0,0,0,0);
+    border: 1px solid #fff;
+    border-radius: 30px;
+}
+.slider .carousel-indicators .active {
+    width: 30px;
+    height: 30px;
+    background: orange;
 }
 }
 

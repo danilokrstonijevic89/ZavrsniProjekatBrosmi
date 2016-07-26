@@ -56,37 +56,110 @@ a {
 .servises{
     height: 750px;
     background: #959799;
+    position: relative;
 }
 .navodnici {
     position: absolute;
     margin-top: 100px;
 }
-.krug{
-    margin-left: 120px;
-    margin-top: 50px;
+.krug {
+    margin-left: 60px;
+    margin-top: 100px;
 }
 .special p{
-    color: black;
+    color: #72777b;
     margin-top: 50px;
-    font-family: 'Playball', cursive;
+    font-family: 'PT Sans', sans-serif;
 }
 .special h4{
     margin-top: 50px;
-    color: orange;
+    color: #d25513;
     font-size: 16px;
 }
 
-   .view {
+.special button {
     margin-top: 40px;
-    margin-left: 130px;
-    width: 110px;
-    height: 30px;
+    margin-left: 100px;
+    width: 150px;
+    height: 50px;
     border-radius: 20px;
-    background: orange;
+    background: #d25513;
     color: white;
-    font-size: 12px;
 }
 
 .search{
-  width: 60%;  
+    width: 60%;  
+}
+.flow {
+    width: 20%;
+    position: absolute;
+    margin-left: 130px;
+}
+.arrow{
+
+}
+.arrow1{
+
+}
+.doubleLine{
+    width: 5%;
+    margin-left: 10px;
+}
+.doubleLine1{
+    width: 5%;
+    margin-right: 10px;
+}
+.special article p:first-child{
+    font-family: 'Playball', cursive;
+    font-size: 16px;
+    color: black;
+}
+.from h6{
+    color: #d25513;
+    font-family: 'Playball', cursive;
+    font-size: 20px;
+    margin-top: 40px;
+}
+.from h5{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 24px;
+    margin-left: 50px;
+}
+.media-body{
+    display: block;
+}
+.media-left{
+    display: block;
+}
+.media-body h4{
+    color: black;
+    font-family: 'PT Serif', serif;
+    margin-top: 20px;
+}
+.media-object{
+    margin-left: 120px;
+}
+.media-body span{
+    margin-left: 100px;
+}
+.media-body p{
+    margin-top: 20px;
+}
+.deals h4{
+    font-family: 'Playball', cursive;
+    font-size: 35px;
+}
+.deals span{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.deals p{
+    color: black;
+}
+.deals p b, strong {
+    font-weight: 500;
+}
+.deals .img-responsive{
+    margin-left: 130px;
+    margin-top: 30px;
 }
