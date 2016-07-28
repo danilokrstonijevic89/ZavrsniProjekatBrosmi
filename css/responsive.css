@@ -1,5 +1,16 @@
 @media only screen and (min-width: 768px){
-      .header .navbar-brand{
+
+    /* Header top */
+    .headerTop .signIn ul{
+        margin-right: -15px;
+    }
+    .headerTop article address{
+        margin-left: -15px;
+    }
+    /* /Header top */
+
+    /* Header */
+    .header .navbar-brand{
         margin-top: 10px;
         margin-bottom: 0px;
     }
@@ -32,23 +43,79 @@
         margin-bottom: 0px;
         display: inline-block;
     }
+    .header .form-control{
+        margin-left: 50px;
+    }
     .header form.pull-right{
         float: right !important;
-        margin-right: 250px;
     }
-    
     /* /Header */
-    .krug {
-    margin-left: 300px;
-    margin-top: 50px;
-}
-.img-responsive {
-    margin-left: 330px;
-    margin-top: 50px;
-}
+
+    /* Slajder poseduje eksterni main_slider.css i responsive_slider.css */
+
+    /* PreciousSense */
+    .preciousSense p{
+        font-size: 21px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: bold;
+        color: #24292d;
+        margin-top: 120px;
+        margin-bottom: 0px;
+    }
+    .preciousSense h2{
+        font-size: 60px;
+        font-family: 'Playball', cursive;
+        font-weight: bold;
+        color: #24292d;
+        margin-top: 0px;
+        margin-bottom: 90px;
+    }
+
+    /* Tab */
+    .nav-tabs {
+        border-radius: 35px;
+    }
+    .nav-tabs > li.active > a,
+    .nav-tabs > li.active > a:hover,
+    .nav-tabs > li.active > a:focus {/* Potrebno je jos aditi */
+        border-radius: 35px;
+    }
+    .nav-tabs > li > a {/* Potrebno je jos aditi */
+        line-height: 120%;
+        padding: 20px 40px;
+        border-radius: 35px;
+        font-size: 20px;
+    }
+    /* /Tab */
+
+    /* Slider Four Pics */
+    .tab-pane .slick-next {
+        right: -15px;
+    }
+    .tab-pane .slick-prev::before,
+    .tab-pane .slick-next::before {
+        display: inline-block;
+    }
+    /* /Slider Four Pics */
+
+    /* /PreciousSense */
+
+    /* Special Offers starts */
+    .specialOffers .mediaContent h2{
+        text-align: left;
+        font-size: 36px;
+        margin-top: 0px;
+    }
+    .specialOffers .mediaContent p:first-of-type{
+        font-family: 'Playball', cursive;
+        font-size: 24px;
+        text-align: left;
+        color: #d25113;
+    }
+    /* /Special Offers end */
 }
 @media only screen and (min-width: 992px){
-    
+
     /* Header top */
     .headerTop article address{
         float: left;
@@ -75,15 +142,66 @@
     }
     .header .form-control{
         width: 150px;
+        margin-left: 50px;
     }
     .header .navbar-default div.navbar-collapse {
         display: inline-block;
         float: right;
     }
-}
-@media only screen and (min-width: 992px){
-    
+    /* /Header */
+
+    /* Slajder poseduje eksterni main_slider.css i responsive_slider.css */
+
+    /* Special Offers starts */
+    .specialOffers{
+        margin-top: 120px;
+        margin-bottom: 120px;
+        font-family: 'PT Sans', sans-serif;
+    }
+    .specialOffers .sideContent{
+        padding-right: 15px;
+    }
+    .specialOffers .sideContent p:first-child {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .specialOffers .sideContent h2{
+        font-size: 18px;
+    }
+    .specialOffers .sideContent p:nth-of-type(2) {
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .specialOffers .sideContent p:nth-of-type(3) {
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .specialOffers .mediaContent > p{
+        margin-bottom: 60px;
+    }
+    /* /Special Offers end */
 }
 @media only screen and (min-width: 1200px){
-    
+
+    /* Header */
+    .header .navbar-header{
+        margin-left: -15px;
+    }
+    .header .navbar-default div.navbar-collapse {
+        margin-right: -15px;
+    }
+    .header form{
+        margin-right: -15px;
+        padding-right: 0px;
+    }
+    .header .form-control{
+        margin-left: 0px;
+    }
+    /* /Header */
+
+    /* Slajder poseduje eksterni main_slider.css i responsive_slider.css */
+
+    /* Special Offers starts */
+
+    /* /Special Offers end */
 }
