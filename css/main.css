@@ -419,55 +419,44 @@ main{
 }
 .ourServices h2 {
     font-family: "Playball",cursive;
-    margin-left: 100px;
+    margin-left: 80px;
     padding-top: 50px;
     font-size: 45px;
 }
-.ourServices p{ 
+.ourServices p {
     font-family: 'PT Sans', sans-serif;
-    margin-left: 60px;
     font-size: 16px;
-    padding-top: 60px;
+    padding-top: 10px;
+    text-align: center;
 }
-.ourServices p:first-child { 
 
-}
 .img-responsive,thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
     display: block-inline;
     max-width: 10%;
     height: auto;
-    margin-left: 150px;
+    margin-left: 170px;
 }
-.ourServices h3{
-    margin-left: 100px;
+.ourServices h3 {
+    margin-left: 120px;
     font-size: 20px;
 }
 
-/* /Out servises start */
+/* /Out servises end */
 
 .chef {
     width: 80%;
     margin-top: 20px;
-    margin-left: 40px;
+    margin-left: 30px;
 }
-form {
+.form {
     margin-top: 40px;
-    border: 1px solid navajowhite;
-    padding: 50px;
+    border: 3px solid #d0d0d0;
+    padding: 30px;
 }
-.time{ 
-    width: 47%;
-    display: inline-block;
-    float:left;
-}
-.time1{
-    width: 50;
-    display: inline-block;
-    float:right;
-}
-.form-group button{
-    
-}
+
+
+
+
 .form-control {
     display: inline;
     width: 100%;
@@ -483,8 +472,71 @@ form {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset;
     transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
 }
-.pictures figure{
-    display: inline-block;
-    width: 20%;
+.food figure{
+    height: 75px;
 }
+.food p{
+    font-size: 13px;
+        
+}
+.form button {
+    margin-left: 45px;
+    border-radius: 20px;
+    padding: 10px;
+    background: #d25513;
+    color: white;
+    font-size: 10px;
+}
+
+.pictures{
+    margin-top: 20px;
+}
+.pictures figure img{
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    margin: 0 auto;
+    display: block;
+}
+.chef h2 {
+    font-family: 'Playball', cursive;
+  text-align: center;
+    font-size: 34px;
+}
+.chef p {
+    font-size: 12px;
+    margin-left: 25px;
+}
+
+.chef p:nth-of-type(2){
+    text-align: center;
+    color:#7e8286;
+    
+}
+
+.chef span{
+    width: 10px;
+}
+
 /*  /Main  */
+
+/* footer */
+.footer{
+    background: #d25513;
+}
+.footer img {
+    width: 15%;
+    padding-top: 10px;
+}
+.footer .list-inline {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.footer p{
+    color: white;
+    font-size: 11px;
+}
+.footer p:last-of-type{
+    color: #eec6ba;
+}
+/* footer */
