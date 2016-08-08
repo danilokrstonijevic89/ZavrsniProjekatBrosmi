@@ -1,5 +1,5 @@
 @media only screen and (min-width: 768px){
-
+    /*////---- FOR ALL PAGES HEADER START ----////*/
     /* Header top */
     .headerTop .signIn ul{
         margin-right: -15px;
@@ -49,8 +49,178 @@
     .header form.pull-right{
         float: right !important;
     }
-    /* /Header */
 
+    .header .btn-default {
+        background: #24292D none repeat scroll 0% 0%;
+        border-color: #313538;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        color: #FFF;
+        text-shadow: none;
+        margin-left: 14px;
+        margin-top: 6px;
+    }
+
+    /*////---- SHOP PRODUCT RESPONSIVE START ----////*/
+    .productName{
+        text-align: left;
+    }
+    .productName > div:nth-child(2) form .form-group{
+        padding: 20px;
+        width: 338px;
+        position: relative;
+    }
+    .productName > div:nth-child(2) form .form-group .form-control{
+        display: inline-block;
+        margin-left: 50px;
+        width: 80%;
+    }
+    .productName > div:nth-child(2) form .form-group label{
+        display: inline-block;
+        position: absolute;
+        top: 25px;
+        left: 0px;
+        font-weight: bold;
+        font-size: 16px;
+    }
+    .productName > div:nth-child(3) button:nth-of-type(3){
+        margin: 0 20px 0 20px;
+    }
+    .tabShop .nav-tabs {
+        border: medium none;
+        margin-top: 20px;
+        background: white;
+        margin-left: 0px;
+    }  
+    .tabShop .nav-tabs > li > a {
+        color: #000;
+        display: inline;
+        float: left;
+        font-size: 12px;
+    }
+    .tabShop .nav-tabs > li {
+        text-align: center;
+        background: #FFF none repeat scroll 0% 0%;
+
+    }
+
+    .tabShop .nav-tabs {
+        border: medium none;
+        margin-top: 20px;
+        background: #FFF none repeat scroll 0% 0%;
+        margin-left: 0px;
+        display: inline;
+    }
+    .tabShop {
+        border: 1px solid #c5c6c8;
+    }
+    .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+        background: rgb(242, 242, 242) none repeat scroll 0% 0%;
+        border-color: rgb(242, 242, 242);
+        color: black;
+        border-radius: 0px;
+    }
+    .relatedProduct button {
+        margin-left: 17px;
+        padding: 10px;
+        border-radius: 20px;
+        color: #D25513;
+        background: #FFF none repeat scroll 0% 0%;
+        margin-bottom: 20px;
+        margin-top: 22px;
+    }
+    .relatedProduct button:hover {
+        border-color: #e1e1e1;
+        color: white;
+        background: red;
+        font-size: 14px;
+    }
+    .relatedProduct figure {
+        margin-left: 35px;
+    }
+    .relatedProduct h2 {
+        font-family: "Playball",cursive;
+        margin-top: 90px;
+    }
+    .color{
+        display: inline;
+    }
+    .tab-content {
+        background: #FFF none repeat scroll 0% 0%;
+        margin-bottom: 50px;
+    }
+    /*////---- SHOP PRODUCT RESPONSIVE END ----////*/
+
+
+    /*////---- SHOP LIST CSS START ----///  min-width 768px  /*/
+    /* Actions start */
+    .shop{
+        margin-top: 120px;
+    }
+    .shopList {
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 0px;
+    }
+    .shopList > div > div > article > p {
+        text-align: left;
+    }
+    .shopList form .form-group {
+        width: auto;
+    }
+    .shopList .listDetail{
+        float: left;
+    }
+    .shopList .listDetail figure > a > img{
+        width: auto;
+    }
+    .shopList .listDetail{
+        width: 215px;
+        border: 1px solid #e8e7e4;
+        margin: 0 10px 30px 10px;
+    }
+    /* Actions end */
+    .shopRight .tags{
+        width: auto;
+    }
+    .shopRight .topRated{
+        width: auto;
+        padding: 10px;
+    }
+    .shopRight .categories{
+        width: auto;
+    }
+    .shopRight .filter{
+        width: auto;
+    }
+    .filter{
+        padding: 10px;
+    }
+    .filter a{
+        font-size: 12px;
+    }
+    .filter button{
+        padding: 7px 15px;
+    }
+    .shop {
+        margin-top: 20px;
+    }
+    /*////---- SHOP LIST CSS END ----////*/
+
+
+
+
+    /* /Header */
+    /*////---- FOR ALL PAGES HEADER END ----////*/
+
+
+
+
+
+
+
+    /*////---- HOME PAGE START ----///  min-width 768px  /*/
     /* Slajder poseduje eksterni main_slider.css i responsive_slider.css */
 
     /* PreciousSense */
@@ -112,41 +282,469 @@
         text-align: left;
         color: #d25113;
     }
+    .specialOffers .mediaContent .media{
+        margin: 10px;
+    }
     /* /Special Offers end */
-  .ourServices h2 {
-    margin-left: 250px;
-    font-size: 55px;
-}
-.ourServices h3 {
-    margin-left: 60px;
-    font-size: 20px;
-}
 
-.pictures figure{
-    float: left;
-    width: 20%;
-}
-.footer img {
-    width: 5%;
-    padding-top: 10px;
-}
-.chef p {
-    font-size: 12px;
-  text-align: center;
-}
-.form button {
-    margin-left: 45px;
-    border-radius: 20px;
-    padding: 10px;
-    background: #d25513;
-    color: white;
-    font-size: 10px;
-    width: 125px;
-    height: 30px;
-}
+    /* Services start */
+    .services > .container > .row > div > article > p{
+        font-size: 21px;
+    }
+    .services > .container > .row > div > article > p:last-of-type{
+        font-size: 18px;
+    }
+    .services > .container > .row > div > article > h2{
+        font-size: 60px;
+    }
+    .services .meals h2{
+        font-size: 18px;
+    }
+    .services .meals p{
+        font-size: 15px;
+    }
+    /* /Services end */
+
+    /* Booking start */
+    .booking{
+        margin-bottom: 120px;
+    }
+    .booking > .container > .row > div > article > h2{
+        font-size: 60px;
+        margin-top: 110px;
+    }
+    .booking p:first-of-type{
+        font-size: 18px;
+    }
+    .booking p:last-of-type{
+        font-size: 15px;
+    }
+    /* /Booking end */
+    /*////---- HOME PAGE END ----////*/
+
+
+
+
+
+
+    /*////---- ABOUT US PAGE CSS START ----///  min-width 768px  /*/
+    /* About restaurant start */
+    .aboutRestaurant{
+        padding-top: 160px;
+        padding-bottom: 160px;
+        margin-top: -20px;
+    }
+    .aboutRestaurant > .container > div > h2{
+        font-size: 76px;
+    }
+    .aboutRestaurant > .container > div > h2 > img{
+        width: 70px;
+    }
+    .aboutRestaurant p:first-of-type{
+        font-size: 18px;
+    }
+    .aboutRestaurant p:last-of-type{
+        font-size: 15px;
+    }
+    /* /About restaurant end */
+
+    /* Who we are start */
+    .whoWe{
+        padding-bottom: 0px;
+    }
+    .whoWe > .container > .row > div > article > p{
+        font-size: 21px;
+    }
+    .whoWe > .container > .row > div > article > p:last-of-type{
+        font-size: 18px;
+    }
+    .whoWe > .container > .row > div > article > h2{
+        font-size: 60px;
+    }
+    .whoWe .meals h2{
+        font-size: 18px;
+    }
+    .whoWe .meals p{
+        font-size: 15px;
+    }
+    /* /Services end */
+
+    /* History start */
+    section.history{
+        margin-top: 120px;
+        margin-bottom: 120px;
+    }
+    .history > .container > .row:first-child > div > article{
+        height: 570px;
+    }
+    /* /History end */
+    /*////---- ABOUT US PAGE CSS END ----////*/
+
+
+
+
+
+    /*////---- MENU PAGE CSS START ----///  min-width 768px  /*/
+    /* Our menu start */
+    .ourMenu{
+        padding-top: 160px;
+        padding-bottom: 160px;
+        margin-top: -20px;
+    }
+    .appetizers{
+        margin-bottom: 110px;
+    }
+    .products > h3 > small,
+    .products > h4 > small{
+        display: inline;
+        position: relative;
+        bottom: -7px;
+    }
+    .breakfast .products > p > a{
+        font-size: 14px;
+    }
+    .breakfast .price > p{
+        font-size: 14px;
+    }
+    .products > small{
+        color: #72777b;
+        font-size: 12px;
+    }
+    article.menuProducts{
+        margin-bottom: 120px;
+    }
+    article.menuPrice{
+        margin-bottom: 120px;
+    }
+    .specials .headingSecond > p{
+        font-size: 16px;
+    }
+    /* /Our menu end */
+
+    /* All headings */
+    .headings > .container > div > h2{
+        font-size: 76px;
+    }
+    .headings > .container > div > h2 > img{
+        width: 70px;
+    }
+    .headings p:first-of-type{
+        font-size: 18px;
+    }
+    .headings p:last-of-type{
+        font-size: 15px;
+    }
+    /* All headings */
+
+    /* All heading second */
+    .headingSecond > h2{
+        font-size: 40px;
+    }
+    .headingSecond > p{
+        font-size: 18px;
+    }
+    /* All heading second */
+
+    /* All rows */
+    .products{
+        margin-bottom: 25px;
+    }
+    .products > p > a{
+        font-size: 18px;
+    }
+    .products > h3 > a{
+        font-size: 26px;
+    }
+    .products > h4 > a{
+        font-size: 24px;
+    }
+    .price > p{
+        font-size: 18px;
+    }
+    /* All rows */
+    /* ThirdHeading all */
+    .thirdHeading{
+        padding-top: 140px;
+        padding-bottom: 140px;
+    }
+    .thirdHeading > h2{
+        font-size: 40px;
+    }
+    .thirdHeading > p{
+        font-size: 16px;
+    }
+    /* ThirdHeading all */
+
+    .dessert .products > p > a{
+        font-size: 12px;
+    }
+    .dessert .price > p{
+        font-size: 12px;
+    }
+    /*////---- MENU PAGE CSS END ----////*/
+
+
+
+
+
+
+    /*////---- BLOG PAGE CSS START ----///  min-width 768px  /*/
+    /* Homemade pizza start */
+    .blogCenter{
+        margin-top: 120px;
+    }
+    .homemadePizza{
+        padding: 50px 30px 0 30px;
+    }
+    .homemadePizza > h2{
+        font-size: 40px;
+        margin-bottom: 40px;
+    }
+    .homemadePizza > div{
+        border: 1px solid #e8e7e4;
+        padding: 18px;
+        margin: 0px
+    }
+    .homemadePizza > div div > article > a > p{
+        font-size: 14px;
+    }
+    .homemadePizza > figure{
+        margin-top: 40px;
+    }
+    .homemadePizza > p{
+        margin-top: 40px;
+        font-size: 15px;
+    }
+    .homemadePizza > div:nth-of-type(2){
+        margin-top: 30px;
+        padding: 20px;
+    }
+    .homemadePizza > div:nth-of-type(2) p{
+        font-size: 21px;
+    }
+    .homemadePizza > div:nth-of-type(2) p > img:nth-of-type(1){
+        width: auto;
+        position: relative;
+        top: -7px;
+    }
+    .homemadePizza > div:nth-of-type(2) p > img:nth-of-type(2){
+        width: auto;
+        position: relative;
+        bottom: -7px;
+    }
+    .homemadePizza > h4{
+        font-size: 25px;
+        margin-top: 60px;
+    }
+    .homemadePizza > ul{
+        margin-top: 40px;
+    }
+    .homemadePizza > ul li{
+        font-size: 15px;
+    }
+    .homemadePizza > div:nth-of-type(3){
+        margin-top: 40px;
+        padding: 30px 0px 20px 0px;
+    }
+    .homemadePizza > div:nth-of-type(3) > ul:first-of-type > li > a{
+        line-height: 35px;
+    }
+    .homemadePizza > div.row:nth-of-type(4){
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .homemadePizza > div:nth-of-type(4) div > article{
+        margin-top: 50px;
+        margin-bottom: 60px;
+    }
+    .homemadePizza > div:nth-of-type(4) div > article > a{
+        font-size: 15px;
+    }
+    /* /Homemade pizza end */
+
+    /* Related posts start */ 
+    .relatedPost h3{
+        font-size: 18px;
+        margin-top: 60px;
+        margin-bottom: 30px;
+    }
+    .relatedPost .relatedPhoto{
+        border: 1px solid #e8e7e4;
+    }
+    /* /Related posts end */ 
+
+    /* William start */ 
+    .william{
+        padding: 30px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    .william .media-left, 
+    .william .media-right, 
+    .william .media-body {
+        display: table-cell;
+    }
+    /* /William end */
+
+    /* Pagination start */
+    .pagi{
+        padding: 30px;
+    }
+    .pagi .media{
+        padding-top: 30px;
+    }
+    .pagi .media .media-body > div{
+        display: inline-block;
+    }
+    .pagi .media .media-body > div > h6{
+        float: left;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .pagi .media .media-body > div > p{
+        float: right;
+        margin-left: 30px;
+        font-size: 13px;
+    }
+    .pagi div:nth-of-type(2){
+        padding-left: 50px;
+    }
+    /* /Pagination end */
+
+    /* Comment start */
+    .comment{
+        padding: 30px;
+    }
+    .comment h3{
+        font-size: 14px;
+    }
+    .comment > p{
+        font-size: 15px;
+        margin-bottom: 40px;
+    }
+    .comment > form > div:first-of-type{
+        float: left;
+        width: 48%;
+        margin-right: 2%;
+    }
+    .comment > form > div:nth-of-type(2){
+        float: right;
+        width: 48%;
+        margin-left: 2%;
+    }
+    /* /Comment end */
+
+    /* Right side bar start */
+    .rightSide > article{
+        width: auto;
+    }
+    /* Rose start */
+    .rose{
+        margin-top: 0px;
+    }
+
+    .rose img{
+        margin-top: 0px;
+    }
+    /* /Rose end */
+
+
+
+    /* Forum instagram start */
+    .forumInsta div > img{
+        width: auto;
+        width: 42.6px;
+    }
+    /* /Forum instagram end */
+
+    /* Tags start */
+    .tags > div{
+        margin-top: 20px;
+        text-align: left;
+    }
+    /* /Tags end */
+    /* /Right side bar end */
+    /*////---- BLOG PAGE CSS END ----////*/
+
+
+
+
+
+    /*////---- BLOG LIST CSS START ----///  min-width 768px  /*/
+    .blogList .mediaList button{
+        padding: 17px 45px;
+        color: #24292d;
+        left: -84px;
+    }
+    /*////---- BLOG LIST CSS END ----////*/
+
+
+    /*////---- CONTANT US CSS START ----////*/
+    /* Contact us today start */
+    .form-group {
+        border-radius: 0px;
+        border-color: #E8E7E4;
+        display: block;
+        width: 46%;
+        float: left;
+        margin: 10px;
+    }
+
+    textarea.form-control {
+        height: auto;
+        display: inline;
+        width: 95%;
+        margin-left: 8px;
+        height: 147px;
+
+    }
+    .london{
+        margin-left: 50px;
+        margin-top: 90px;
+    }
+    .ourLocations{
+        height: 965px;
+    }
+    .ourLocations h2{
+        margin-top: 120px;
+        font-size: 55px;
+    }
+    .london h2{
+        font-size: 20px;
+        margin-top: 90px;
+    }
+    .ourLocations p:first-of-type{
+        font-size: 20px;
+    }
+    .googleMap{
+        margin-top: 120px;
+    }
+    .contactUsToday h2 {
+        font-family: "Playball",cursive;
+        font-size: 40px;
+        margin-top: 125px;
+    }
+    .formContact h2 {
+        margin-top: 50px;
+        font-size: 18px;
+    }
+
+
+    /* Contact us today end */
+    /*////---- CONTANT US CSS END ----////*/
+
+
+    /*////---- FOR ALL PAGES FOOTER START ----////*/
+    /* Five pics start */
+    .fivePics article{
+        width: 20%;
+        float: left;
+    }
+    /* /Five pics end*/
+    /*////---- FOR ALL PAGES FOOTER END ----////*/
 }
 @media only screen and (min-width: 992px){
-
+    /*////---- FOR ALL PAGES HEADER START ----////*/
     /* Header top */
     .headerTop article address{
         float: left;
@@ -180,8 +778,14 @@
         float: right;
     }
     /* /Header */
+    /*////---- FOR ALL PAGES HEADER END ----////*/
 
-    /* Slajder poseduje eksterni main_slider.css i responsive_slider.css */
+
+
+
+
+    /*////---- HOME PAGE START ----///  min-width 992px  /*/
+
 
     /* Special Offers starts */
     .specialOffers{
@@ -211,65 +815,179 @@
         margin-bottom: 60px;
     }
     /* /Special Offers end */
-    .footer img {
-    width: 5%;
-    padding-top: 10px;
-}
-.ourServices h2 {
-    margin-left: 350px;
-    font-size: 55px;
-}
-.ourServices{
-    height: 740px;
-}
-.food figure {
-    height: 75px;
-    margin-top: 125px;
-}
-.ourServices p:nth-of-type(2){ 
-    width: 740px;
-    margin-left: 200px;
-}
-.ourServices h3 {
-    margin-left: 120px;
-    font-size: 20px;
-}
-.form button {
-    margin-left: 45px;
-    border-radius: 20px;
-    padding: 10px;
-    background: #d25513;
-    color: white;
-    font-size: 10px;
-    width: 145px;
-    height: 40px;
-}
-.chef {
-    width: 70%;
-    margin-top: 20px;
-    margin-left: 120px;
-}
-.pictures {
-    margin-top: 128px;
-}
-.btn-default:hover, .btn-default:focus {
-    background-color: #e0e0e0;
-    background-position: 0 -15px;
-    color: orange;
-    border-color: orange;
-}
-.chef h2:first-of-type{
-    text-align: center;
-    font-size: 50px;
-}
-.book{
-    margin-top: 124px;
-    margin-left: 180px;
-    margin-bottom: 90px;
-}
+
+    /* Booking start */
+    .booking img.chef{
+        margin-top: 30px;
+    }
+    .booking .form-control{
+        height: 50px;
+        padding: 6px 12px;
+    }
+    .booking .littleForm {
+        padding-bottom: 20px;
+    }
+    .booking form{
+        padding: 30px 45px 30px 45px;
+        border: 5px solid #f5f5f5;
+    }
+    .booking form .form-group {
+        margin-bottom: 20px;
+    }
+    .booking .littleForm .form-group{
+        width: 48%;
+        float: left;
+    }
+    .booking .littleForm .form-group:first-child{
+        margin-right: 4%;
+    }
+    .booking .littleForm .form-group {
+        margin-bottom: 0;
+    }
+    .booking .forms h2{
+        font-size: 60px;
+    }
+    .booking .forms button{
+        margin-top: 30px;
+    }
+    .booking .forms h2{
+        font-size: 60px;
+    }
+    .booking .forms button {
+        margin-top: 0px;
+    }
+    /* /Booking End */
+    /*////---- HOME PAGE END ----////*/
+
+
+
+
+
+
+    /*////---- ABOUT US PAGE CSS START ----///  min-width 992px  /*/
+    /* Who we are start */
+    .whoWe > .container > .row > div > article > p{
+        font-size: 21px;
+    }
+    .whoWe > .container > .row > div > article > p:last-of-type{
+        font-size: 18px;
+    }
+    .whoWe > .container > .row > div > article > h2{
+        font-size: 60px;
+    }
+    .whoWe .meals h2{
+        font-size: 18px;
+    }
+    .whoWe .meals p{
+        font-size: 15px;
+    }
+    /* /Who we are end */
+    /*////---- ABOUT US PAGE CSS END ----////*/
+
+
+
+
+
+
+    /*////---- MENU PAGE CSS START ----///  min-width 992px  /*/
+    .specials .headingSecond > p{
+        font-size: 18px;
+    }
+    .dessert .products > p > a{
+        font-size: 18px;
+    }
+    .dessert .price > p{
+        font-size: 18px;
+    }
+    /*////---- MENU PAGE CSS END ----////*/
+
+
+
+
+
+
+
+    /*////---- BLOG PAGE CSS START ----///  min-width 992px  /*/
+    .first{
+        margin-top: 0px;
+    }
+    /* Homemade pizza start */
+    .homemadePizza > div:nth-of-type(3) > ul:first-of-type{
+        float: left;
+    }
+    .homemadePizza > div:nth-of-type(3) > ul:last-of-type{
+        float: right;
+    }
+    /* /Homemade pizza end */
+
+    /* Right side bar start */
+    .rose img{
+        margin: 10px 10px 10px 10px;
+    }
+    /* Forum instagram start */
+    .forumInsta div > img{
+        width: auto;
+        width: 67px;
+    }
+    /* /Forum instagram end */
+    /* /Right side bar end */
+    /*////---- BLOG PAGE CSS END ----////*/
+
+
+
+
+
+
+    /*////---- BLOG LIST CSS START ----///  min-width 992px  /*/
+    .blogList div.mediaList{
+        max-width: 100%;
+    }
+    .blogList .mediaList img{
+        float: left;
+        margin-right: 10px;
+    }
+    .blogList .mediaList .mediaList-body button{
+        margin-bottom: 0px;
+        margin-left: 0;
+        left: 0px;
+    }
+    .blogList .mediaList{
+        padding-right: 10px;
+        text-align: left;
+    }
+    /*////---- BLOG LIST CSS END ----////*/
+
+    /*////---- SHOP PRODUCT CSS START ----////*/
+    .relatedProduct figure {
+        margin-left: 60px;
+    }
+
+    .relatedProduct button {
+        margin-left: 45px;
+    }
+    .productGallery{
+        margin-top: 120px;
+    }
+    /* /Product gallery end */
+
+    /* Product name start */
+    .productName{
+        margin-top: 120px;
+    }
+    .productName > div:nth-child(2) form .form-group{
+        width: 205px;
+    }
+
+
+
+
+    /*////---- SHOP PRODUCT CSS END ----////*/
+
+
+
 }
 @media only screen and (min-width: 1200px){
-
+    /*////---- FOR ALL PAGES HEADER START ----////*/
     /* Header */
     .header .navbar-header{
         margin-left: -15px;
@@ -284,53 +1002,93 @@
     .header .form-control{
         margin-left: 0px;
     }
-    
-    .time .form-group{
-    width: 48% !important;
-    display: inline-block !important;
-}
     /* /Header */
+    /*////---- FOR ALL PAGES HEADER END ----////*/
 
+
+
+
+
+    /*////---- HOME PAGE START ----////*/
     /* Slajder poseduje eksterni main_slider.css i responsive_slider.css */
+    /* Booking start */
+    .booking .forms h2{
+        margin-bottom: 50px;
+    }
+    /* /Booking end */
+    /*////---- HOME PAGE END ----////*/
 
-    /* Special Offers starts */
 
-    /* /Special Offers end */
-    
-    
-    .ourServices h2 {
-    margin-left: 430px;
-    font-size: 65px;
-}
-.footer img {
-    width: 5%;
-    padding-top: 10px;
-}
-.food figure {
-    height: 75px;
-    margin-top: 125px;
-}
-.form button {
-    margin-left: 45px;
-    border-radius: 30px;
-    padding: 10px;
-    background: #d25513;
-    color: white;
-    font-size: 12px;
-    width: 185px;
-    height: 55px;
-}
-.chef {
-    width: 70%;
-    margin-top: 20px;
-    margin-left: 170px;
-}
-.btn-default:hover, .btn-default:focus {
-    background-color: #e0e0e0;
-    background-position: 0 -15px;
-    color: orange;
-    border-color: orange;
-    box-shadow: 10px 10px 5px #888888;
-}
+
+
+
+    /*////---- ABOUT US PAGE CSS START ----////*/
+
+    /*////---- ABOUT US PAGE CSS END ----////*/
+
+
+
+
+
+
+    /*////---- MENU PAGE CSS START ----////*/
+
+    /*////---- MENU PAGE CSS END ----////*/
+
+
+
+
+
+
+    /*////---- BLOG PAGE CSS START ----///  min-width 1200px  /*/
+    /* Right side bar start */
+    .rose{
+        padding: 30px;
+    }
+    .rose img{
+        margin: 24px 24px 20px 24px;
+        margin-top: 30px;
+    }
+    /* Forum instagram start */
+    .forumInsta div > img{
+        width: auto;
+        width: auto;
+    }
+    /* /Forum instagram end */
+    /* /Right side bar end */
+    /*////---- BLOG PAGE CSS END ----////*/
+
+    /*////---- BLOG LIST CSS START ----////*/
+    /* List start */
+    .blogList .mediaList img{
+        margin-right: 30px;
+    }
+    .blogList .mediaList{
+        padding-right: 30px;
+    }
+    /* /List end */
+    /*////---- BLOG LIST CSS END ----////*/
+
+
+
+    /*////---- SHOP PRODUCT CSS START ----////*/
+    .relatedProduct figure {
+        margin-left: 85px;
+    }
+
+    .relatedProduct button {
+        margin-left: 65px;
+    }
+
+
+    .productName > div:nth-child(2) form .form-group{
+        width: 255px;
+    }
+
+
+    /*////---- SHOP PRODUCT CSS END ----////*/
+
+
+
 
 }

@@ -5,6 +5,9 @@ a{
 ul li{
     list-style-type: none;
 }
+
+
+/*////---- FOR ALL PAGES HEADER START ----////*/
 /* Header top */
 header section.headerTop{
     background: #d25513;
@@ -34,6 +37,17 @@ header section.headerTop a:focus,
 header section.headerTop a:hover,
 header section.headerTop a:active{
     color: #fff;
+}
+.headerTop .social li>a>span.fa{
+    color: #e39977;
+    font-size: 17px;
+    transition: ease 0.3s;
+}
+.headerTop .social li>a>span.fa:hover,
+.headerTop .social li>a>span.fa:active,
+.headerTop .social li>a>span.fa:focus{
+    color: #fff;
+    transition: ease 0.3s;
 }
 /* header top */
 
@@ -106,7 +120,7 @@ header section.headerTop a:active{
     height: 40px;
     color: #fff;
     text-shadow: none;
-    margin-left: -20px;
+    margin-bottom: 40px;
 }
 .header .btn:focus, 
 .header .btn:active:focus, 
@@ -121,10 +135,17 @@ header section.headerTop a:active{
     box-shadow: inset 0 1px 1px rgba(210,85,19,.075),0 0 8px rgba(210,85,19,.6);
 }
 /* /header */
+/*////---- FOR ALL PAGES HEADER END ----////*/
 
+
+
+
+
+
+/*////---- HOME PAGE CSS START ----////*/
 /*  Main  */
 main{
-    margin-top: -10px;
+    margin-top: -20px;
 }
 /*  Slider  */
 /* Za slajder postoje eksterni slider_main.css i slider_responsive.css*/
@@ -165,7 +186,7 @@ main{
 }
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover,
-.nav-tabs > li.active > a:focus {/* Potrebno je jos aditi */
+.nav-tabs > li.active > a:focus {
     color: #fff;
     cursor: default;
     background-color: #d25513;
@@ -174,7 +195,7 @@ main{
     border-radius: 35px;
     outline: medium none;
 }
-.nav-tabs > li > a {/* Potrebno je jos aditi */
+.nav-tabs > li > a {
     margin: 0px;
     line-height: 1.3;
     border: 0px;
@@ -376,7 +397,7 @@ main{
     margin-top: 50px;
 }
 .specialOffers .mediaContent > p{
-    font-family: 'Playball', cursive;
+    font-family: 'PT Sans', sans-serif;
     font-size: 24px;
     text-align: center;
     color: #d25113;
@@ -384,8 +405,8 @@ main{
 .specialOffers .mediaContent .media{
     position: relative;
     max-width: 360px;
-    min-width: 300px;
-    margin: 10px;
+    min-width: 290px;
+    margin: 5px;
 }
 .specialOffers .mediaContent .media .media-body h3,
 .specialOffers .mediaContent .media .media-body p{
@@ -411,132 +432,1502 @@ main{
 
 /* /Special Offers end */
 
-/* /Out servises start */
-
-.ourServices{
+/* Services starts */
+.services{
     background: #f5f5f5;
+    font-family: 'PT Sans', sans-serif;
+}
+.services > .container > .row > div > article > img{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.services p{
+    color: #72777b;
+}
+.services > .container > .row > div > article > h2{
+    font-family: 'Playball', cursive;
+    margin-top: 110px;
+    color: #24292d;
+}
+.services .meals figure{
+    height: 75px;
+    margin-top: 90px;
+    margin-bottom: 30px;
+}
+.services .meals h2{
+    margin-bottom: 30px;
+    color: #24292d;
+    font-family: 'PT Sans', sans-serif;
+}
+.services .meals p{
+    margin-bottom: 110px;
+}
+/*  Services end */
+
+/* Booking start */
+.booking > .container > .row > div > article > h2{
+    font-family: 'Playball', cursive;
+    margin-top: 70px;
+    color: #24292d;
+}
+.booking > .container > .row > div > article > img{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.booking p:first-of-type{
+    font-weight: bold;
+}
+.booking p:last-of-type{
+    color: #72777b;
+}
+.booking{
+    margin-bottom: 80px;
+    font-family: 'PT Sans', sans-serif;
+}
+.booking img.chef{
+    margin-top: 60px;
+}
+.booking .form-control{
+    height: 35px;
+    padding: 0px;
+}
+.booking form{
+    padding: 15px 10px 15px 10px;
+    border: 5px solid #f5f5f5;
+}
+.booking form .form-group {
+    margin-bottom: 20px;
+}
+.booking .forms h2{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-family: 'Playball', cursive;
+}
+.booking .form-control:focus {
+    border-color: #d25513;
+    -webkit-box-shadow: inset 0 1px 1px rgba(210,85,19,.075),0 0 8px rgba(210,85,19,.6);
+    box-shadow: inset 0 1px 1px rgba(210,85,19,.075),0 0 8px rgba(210,85,19,.6);
+}
+.btn-default{
+    padding: 10px 40px;
+    color: #FFF;
+    background: #D25113 none repeat scroll 0% 0%;
+    border: 1px solid #D25113;
+    border-radius: 50px;
+    font-size: 16px;
+    box-shadow: none;
+    transition: all 0.5s ease 0s;
+    font-weight: bold;
+}
+/* /Booking end */
+
+/*////---- HOME PAGE END ----////*/
+
+
+
+
+
+
+/*////---- ABOUT US PAGE CSS START ----////*/
+
+/* About restaurant start */
+.aboutRestaurant{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-family: 'PT Sans', sans-serif;
+    background: #64625f;
+    color: #fff;
+    margin-top: 40px;
+}
+.aboutRestaurant h2{
+    font-family: 'Playball', cursive;
+}
+.aboutRestaurant > .container > div > img{
+    margin-bottom: 40px;
+}
+.aboutRestaurant > .container > div > h2 > img{
+    width: 40px;
+}
+.aboutRestaurant p:first-of-type{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.aboutRestaurant p:last-of-type{
+    max-width: 66%;
+}
+/* /About restaurant end */
+
+/* Who we are starts */
+.whoWe{
+    background: #f5f5f5;
+    font-family: 'PT Sans', sans-serif;
+    padding-bottom: 80px;
+}
+.whoWe > .container > .row > div > article > img{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.whoWe p{
+    color: #72777b;
+}
+.whoWe > .container > .row > div > article > h2{
+    font-family: 'Playball', cursive;
+    margin-top: 110px;
+    color: #24292d;
+}
+.whoWe .meals figure{
+    height: 75px;
+    margin-top: 90px;
+    margin-bottom: 30px;
+}
+.whoWe .meals h2{
+    margin-bottom: 30px;
+    color: #24292d;
+    font-family: 'PT Sans', sans-serif;
+}
+.whoWe .meals h2 a{
+    color: #24292d;
+    font-family: 'PT Sans', sans-serif;
+}
+.whoWe .meals h2 a:hover{
+    text-decoration: none;
+}
+.whoWe .meals p{
+    margin-bottom: 0px;
+}
+.whoWe > .container > .row div.meals article{
+    margin-bottom: 130px;
+}
+/*  Who we are end */
+
+
+
+/* History start */
+section.history{
+    font-family: 'PT Sans', sans-serif;
+    color: #24292d;
+    margin-top: 0px;
+    margin-bottom: 120px;
+}
+section.history > .container > .row > div article{
+    height: 750px;
+    padding: 0 10px 0 10px;
+}
+section.history > .container > .row div.goodTastes > article{
+    height: 570px;
+}
+section.history > .container > .row > div:first-of-type > article > h2{
+    font-family: 'Playball', cursive;
+    font-size: 60px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+section.history > .container > .row > div:first-of-type > article > img{
+    margin-bottom: 40px;
+}
+section.history > .container > .row > div:first-of-type > article > p:first-of-type{
+    margin-bottom: 25px;
+    font-size: 21px;
+    font-weight: bold;
+}
+section.history > .container > .row > div:first-of-type > article > p:nth-of-type(2){
+    font-size: 15px;
+    line-height: 24px;
+    color: #72777b;
+    margin: 0px;
+}
+section.history > .container > .row > div:first-of-type > article > p:nth-of-type(3){
+    font-size: 21px;
+    line-height: 30px;
+    color: #d25513;
+    font-family: 'Playball', cursive;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+section.history > .container > .row > div:first-of-type > article > p:nth-of-type(3) img:first-of-type{
+    position: relative;
+    top: -10px;
+}
+section.history > .container > .row > div:first-of-type > article > p:nth-of-type(3) img:last-of-type{
+    position: relative;
+    top: 10px;
+}
+section.history > .container > .row > div:first-of-type > article > p:nth-of-type(4){
+    font-size: 15px;
+    line-height: 24px;
+    color: #72777b;
+}
+section.history > .container > .row > div:last-child > article{
+    background-color: #e1e1e1;
+    background-image: url('style_images/tastesCircle.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+section.history > .container > .row > div:last-child > article > p{
+    padding-top: 210px;
+}
+section.history > .container > .row > div:last-child > article > p > a{
+    font-size: 60px;
+    line-height: 100%;
+    color: #d25513;
+    font-family: 'Playball', cursive;
+    text-decoration: none;
+    transition: ease 0.5s;
+}
+section.history > .container > .row > div:last-child > article > p > a:hover{
+    font-size: 70px;
+    color: #d25513;
+    transition: ease 0.5s;
+}
+/* /History end */
+
+/* Chef start */
+.chef{
+    background: #f0f0f0;
+    font-family: 'PT Sans', sans-serif;
+}
+.chef > .container > .row > div:first-child > article > h2{
+    margin-top: 70px;
+    font-size: 70px;
+    font-family: 'Playball', cursive;
+    color: #d25513;
+}
+.chef > .container > .row > div:first-child > article > p:first-of-type{
+    margin: 0px;
+    font-size: 21px;
+    font-weight: bold;
+}
+.chef > .container > .row > div:first-of-type > article > img{
+    margin-top: 30px;
+    margin-bottom: 35px;
+}
+.chef > .container > .row > div:first-child > article > p:last-of-type{
+    margin-bottom: 40px;
+    color: #72777b;
+}
+.chef > .container > .row > div{
+    padding-top: 70px;
+}
+.chef a{
+    font-size: 21px;
+    font-family: 'Playball', cursive;
+    color: #72777b;
+    transition: ease 0.3s;
+}
+.chef a:hover{
+    color: #d25513;
+    transition: ease 0.3s;
+}
+.chef a > img{
+    margin-left: 10px;
+}
+/* /Chef end */
+
+/* /Main */
+
+/*////---- ABOUT US PAGE CSS END ----////*/
+
+
+
+
+
+
+/*////---- MENU PAGE CSS START ----////*/
+/* Our menu start */
+.first{
+    margin-top: 40px;
+}
+.appetizers{
+    margin-bottom: 70px;
+}
+.products > h3 > small,
+.products > h4 > small{
+    display: none;
+}
+.products > small{
+    color: #72777b;
+    font-size: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.specials .headingSecond > img{
+    margin-top: 0px;
+}
+/* /Our menu end */
+/*////---- MENU PAGE CSS END ----////*/
+
+
+
+
+
+
+
+
+/*////---- BLOG PAGE CSS START ----////*/
+/* Homemade pizza start */
+.blogCenter{
+    margin-top: 70px;
+    font-family: 'PT Sans', sans-serif;
+}
+.blogCenter a{
+    font-family: 'PT Sans', sans-serif;
+    color: #929292;
+}
+.homemadePizza{
+    border: 1px solid #e8e7e4;
+    padding: 30px 10px 0 10px;
+}
+.homemadePizza > h2{
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.homemadePizza > div div > article > a > p{
+    font-size: 12px;
+    margin: 0px;
+}
+.homemadePizza > figure{
+    margin-top: 20px;
+}
+.homemadePizza > p{
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-size: 12px;
+    color: #929292;
+}
+.homemadePizza > div:nth-of-type(2){
+    margin-top: 20px;
+    background: #f5f5f5;
+    padding: 10px;
+}
+.homemadePizza > div:nth-of-type(2) > p{
+    font-family: 'Playball', cursive;
+    font-size: 14px;
+    margin: 0px;
+}
+.homemadePizza > div:nth-of-type(2) p > img:nth-of-type(1){
+    width: 14px;
+    position: relative;
+    top: -7px;
+}
+.homemadePizza > div:nth-of-type(2) p > img:nth-of-type(2){
+    width: 14px;
+    position: relative;
+    bottom: -7px;
+}
+.homemadePizza > h4{
+    font-size: 18px;
+    color: #24292d;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+.homemadePizza > ul{
+    margin-top: 20px;
+    padding-left: 15px;
+    margin-bottom: 0px;
+}
+.homemadePizza > ul li{
+    list-style-type: disc;
+    color: #929292;
+    font-size: 12px;
+}
+.homemadePizza > div:nth-of-type(3){
+    margin-top: 20px;
+    border: none;
+    border-top: 1px solid #e8e7e4;
+    border-bottom: 1px solid #e8e7e4;
+    padding: 20px;
+}
+.homemadePizza > div:nth-of-type(4){
+    border: none;
+}
+.homemadePizza > div:nth-of-type(4) div > article{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.homemadePizza > div:nth-of-type(4) div:last-of-type{
+    border-left: 1px solid #e8e7e4;
 
 }
-.ourServices h2 {
-    font-family: "Playball",cursive;
-    margin-left: 80px;
-    padding-top: 50px;
-    font-size: 45px;
+.homemadePizza > div:nth-of-type(4) div > article > a{
+    font-size: 10px;
 }
-.ourServices p {
+/* /Homemade pizza end */
+
+/* Related posts start */ 
+.relatedPost h3{
+    font-size: 14px;
+    font-weight: bold;
+    color: #24292d;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.relatedPost .relatedPhoto{
+    border: 1px solid #e8e7e4;
+    display: inline-block;
+    max-width: 246px;
+    margin-bottom: 40px;
+}
+.relatedPost .relatedPhoto p{
+    margin-top: 30px;
+    margin-bottom: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+/* /Related posts end */ 
+
+/* William start */ 
+.william{
+    border: 1px solid #e8e7e4;
+    padding: 10px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.william .media .media-body a{
+    text-decoration: none;
+}
+.william .media .media-body h4 > a{
+    font-size: 24px;
+    font-weight: bold;
+    color: #24292d;
+}
+.william .media .media-body > a{
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.william .media .media-body > p{
+    font-size: 15px;
+    color: #929292;
+    margin-bottom: 25px;
+}
+.william .media .media-body .socialCircles{
+    float: left;
+}
+.william .media .media-body .socialCircles button{
+    background: #d25513;
+    border-color: #d25513;
+    transition: ease 0.3s;
+}
+.william .media .media-body .socialCircles button:hover{
+    background: #a93f07;
+    border-color: #d25513;
+    transition: ease 0.3s;
+}
+.william .media .media-body .socialCircles button .fa{
+    color: #fff;
+}
+.william .media-left, 
+.william .media-right, 
+.william .media-body {
+    display: inline-block;
+}
+/* /William end */ 
+
+
+/* Pagination start */
+.pagi{
+    border: 1px solid #e8e7e4;
+    font-family: 'PT Sans', sans-serif; 
+    padding: 15px;
+}
+.pagi h5{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+.pagi .media{
+    border-top: 1px solid #e8e7e4; 
+    padding-top: 15px;
+}
+.pagi .media .media-body > div > h6{
+    font-size: 18px;
+    font-weight: bold;
+}
+.pagi .media .media-body > div > p{
+    font-size: 13px;
+}
+.pagi .media .media-body > p{
+    font-size: 15px;
+    color: #929292;
+}
+.pagi .media .media-body > a{
+    font-size: 14px;
+    font-weight: bold;
+}
+.pagi .media .media-body a{
+    text-decoration: none;
+}
+.pagination{
+    display: block;
+}
+.pagination > li{
+    display: inline-block;
+}
+.pagination > li:first-of-type{
+    float: left;
+}
+.pagination > li:last-of-type{
+    float: right;
+}
+.pagination > li:last-child > a, 
+.pagination > li:last-child > span {
+    border-radius: 25px;
+    width: 35px;
+    height: 35px;
+}
+.pagination > li:first-child > a, 
+.pagination > li:first-child > span {
+    border-radius: 25px;
+    width: 35px;
+    height: 35px;
+}
+.pagination > li > a, 
+.pagination > li > span {
+    margin-left: 5px;
+    padding: 4px 14px;
+    background-color: #e9e9e9;
+    border: 1px solid #ededed;
+    color: #24292d;
+}
+.pagination > li > a:hover, 
+.pagination > li > span:hover, 
+.pagination > li > a:focus, 
+.pagination > li > span:focus {
+    background-color: #fff;
+    border-color: #d25513;
+    color: #d25513;
+}
+/* /Pagination end */
+
+/* Comment start */
+.comment{
+    border: 1px solid #e8e7e4; 
+    margin-top: 40px;
+    padding: 10px;
+}
+.comment > h3{
+    font-size: 14px;
+    font-weight: bold;
+    color: #24292d;
+}
+.comment > p{
+    font-size: 12px;
+    color: #72777b;
+}
+.form-control{
+    border-radius: 0px;
+    border-color: #e8e7e4;
+}
+.form-control:focus {
+    border-color: #d25513;
+    -webkit-box-shadow: inset 0 1px 1px rgba(210,85,19,.075),0 0 8px rgba(210,85,19,.6);
+    box-shadow: inset 0 1px 1px rgba(210,85,19,.075),0 0 8px rgba(210,85,19,.6);
+}
+.comment textArea{
+    width: 100%;
+    height: 200px;
+    transition: ease 0.5s;
+    border: 1px solid #e8e7e4;
+}
+.comment textArea:active,
+.comment textArea:focus{
+    border: 1px solid #d25513;
+    -webkit-box-shadow: inset 0 1px 1px rgba(210,85,19,.075),0 0 8px rgba(210,85,19,.6);
+    box-shadow: inset 0 1px 1px rgba(210,85,19,.075),0 0 8px rgba(210,85,19,.6);
+    transition: ease 0.5s;
+}
+.comment form button{
+    margin-top: 20px;
+    width: 100%;
+    padding: 15px 0 15px 0;
+    color: #fff;
+    background: #d25113;
+    border: 1px solid #d25113;
+    border-radius: 50px;
+    font-size: 14px;
+    box-shadow: none;
+    transition: ease 0.5s;
+    font-weight: bold;
+}
+.comment form button:focus, 
+.comment form button:active {
+    outline: 2px dotted #c0bebd;
+    transition: ease 0.3s;
+}
+.comment form button:hover {
+    color: #fff;
+    background: #aa4008;
+    transition: ease 0.3s;
+}
+/* /Comment end */
+
+/* Side content start */
+.rightSide > article{
+    width: 290px
+}
+/* Rose start */
+.rose {
+    padding: 10px;
+    border: 1px solid #e8e7e4;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.rose h5 a{
+    font-size: 25px;
+    color: #24292d;
+    margin-top: 25px;
+    font-family: 'Playball', cursive;
+    text-decoration: none;
+}
+.rose p{
+    font-size: 14px;
+    color: #72777b;
+}
+.rose p:last-child{
+    padding-top: 20px;
+    border-top: 1px solid #e8e7e4;
+}
+/* /Rose end */
+
+/* Categories start */
+.categories{
+    border: 1px solid #e8e7e4;
+    padding: 30px;
+    margin-bottom: 40px;
+}
+h5.littleHeading{
+    padding-bottom: 20px;
+    font-size: 25px;
+    color: #24292d;
+    margin-top: 25px;
+    font-family: 'Playball', cursive;
+    text-decoration: none;
+    border-bottom: 1px solid #e8e7e4;
+}
+.categories > div div > p > a{
+    display: block;
+    text-decoration: none;
+}
+.categories > div div > p > a:hover{
+    color: #d25113;
+}
+.categories > div div > p{
+    margin-top: 15px;
+}
+/* /Categories end */
+
+/* Forum instagram start */
+.forumInsta{
+    border: 1px solid #e8e7e4;
+    padding: 30px;
+    margin-bottom: 40px;
+}
+.forumInsta div{
+    margin-top: 15px;
+}
+.forumInsta div{
+    display: inline-block;
+}
+.forumInsta div > img{
+    float: left;
+    margin: 5px;
+    width: 66px;
+}
+/* /Forum instagram end */
+
+/* Latest form start */
+.latestForm{
+    border: 1px solid #e8e7e4;
+    padding: 30px;
+    margin-bottom: 40px;
+}
+.latestForm div{
+    margin-top: 15px;
+}
+.latestForm div.media a{
+    text-decoration: none;
+}
+.latestForm div.media:nth-of-type(1){
+    padding-top: 20px;
+}
+.latestForm div.media:nth-of-type(2),
+.latestForm div.media:nth-of-type(3){
+    margin-top: 45px;
+}
+/* /Latest form end */
+
+/* Advertisement start */
+.advertisement{
+    border: 1px solid #e8e7e4;
+    padding: 30px;
+    padding-bottom: 50px;
+    margin-bottom: 40px;
+}
+.advertisement div img{
+    margin-top: 20px;
+}
+/* /Advertisement end */
+
+/* Tags start */
+.tags{
+    border: 1px solid #e8e7e4;
+    padding: 30px;
+    padding-bottom: 50px;
+    margin-bottom: 40px;
+}
+.tags > div{
+    padding-top: 20px;
+}
+.tags div button {
+    background: none;
+    border: 1px solid #ecebe8;
+    border-radius: 35px;
+    box-shadow: none;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 15px;
+    padding: 10px 20px;
+    color: #929292;
+    transition: ease 0.3s;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.tags div button:hover, .tags div button:focus, .tags div button:active {
+    color: #d25513;
+    border-color: #d25513;
+    transition: ease 0.3s;
+}
+/* /Tags end */
+/* /Side content end */
+/*////---- BLOG PAGE CSS END ----////*/
+
+
+
+
+
+
+
+/*////---- BLOG LIST CSS START ----////*/
+.blogList .mediaList{
+    border: 1px solid #ecebe8;
+    margin-bottom: 40px;
+}
+.blogList div.mediaList{
+    max-width: 370px;
+}
+.blogList .mediaList .mediaList-body h4{
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.blogList .mediaList .mediaList-body h4 > a{
+    font-size: 18px;
+    font-weight: bold;
+    color: #24292d;
+}
+.blogList .mediaList .mediaList-body p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+.blogList .mediaList .mediaList-body button{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.blogList .mediaList .mediaList-body a{
+    text-decoration: none;
+}
+.blogList .mediaList .mediaList-body a:nth-of-type(2){
+    margin-right: 20px;
+}
+.blogList .mediaList .mediaList-body a:nth-of-type(2):hover,
+.blogList .mediaList .mediaList-body a:nth-of-type(2):active,
+.blogList .mediaList .mediaList-body a:nth-of-type(3):hover,
+.blogList .mediaList .mediaList-body a:nth-of-type(2):active{
+    color: #d25513;
+}
+.blogList .mediaList button{
+    padding: 10px 20px;
+    color: #24292d;
+    background: #f2f2f2;
+    border: 1px solid #e8e7e4;
+    border-radius: 50px;
+    font-size: 15px;
+    box-shadow: none;
+    transition: ease 0.5s;
+    font-weight: bold;
+    display: block;
+    margin-left: 50%;
+    position: relative;
+    left: -58px;
+}
+
+.blogList .mediaList  button:focus, 
+.blogList .mediaList  button:active {
+    outline: 2px dotted #c0bebd;
+}
+.blogList .mediaList  button:hover {
+    color: #fff;
+    background: #d25113;
+    border: 1px solid #d25113;
+    transition: ease 0.5s;
+}
+/*////---- BLOG LIST CSS END ----////*/
+
+
+/*////---- CONTANT US CSS START ----////*/
+/* Contact us today start */
+
+.contactUsToday h2{
+    font-family: 'Playball', cursive;
+    font-size: 40px;  
+}
+.formContact h2{
+    font-size: 18px;
+}
+.contactUsToday p{
     font-family: 'PT Sans', sans-serif;
     font-size: 16px;
-    padding-top: 10px;
-    text-align: center;
 }
 
-.img-responsive,thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
-    display: block-inline;
-    max-width: 10%;
-    height: auto;
-    margin-left: 170px;
+.formContact button{
+
+    border-color: #d25513;
+    width: 97%;
+    border-radius: 30px;
+    background: #d25513;
+    color: white;
+    font-size: 12px;
+    margin: 16px;
+    margin-left: 6px;
+    height: 40px;
+    margin-top: 33px;
+
 }
-.ourServices h3 {
-    margin-left: 120px;
+
+.btn-default:hover, .btn-default:focus {
+    background-color: white;
+    background-position: 0px -15px;
+    border-color: red;
+    color: red;
     font-size: 20px;
 }
 
-/* /Out servises end */
 
-.chef {
-    width: 80%;
-    margin-top: 20px;
-    margin-left: 30px;
+/* Contact us today end */
+
+
+/* Our locations start */
+
+.ourLocations h2{
+    font-family: 'Playball', cursive; 
+    font-size: 38px;
 }
-.form {
-    margin-top: 40px;
-    border: 3px solid #d0d0d0;
+.london h2{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+}
+
+.london h3{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 12px;
+}
+.london p{
+    color: #72777b;
+    font-family: 'PT Sans', sans-serif;
+
+}
+
+
+
+/* Our locations end */
+
+
+
+
+
+/*////---- CONTANT US CSS END ----////*/
+
+
+
+
+
+
+
+/*////---- SHOP LIST CSS START ----////*/
+.shop{
+    margin-top: 80px;
+}
+.shop a{
+    font-family: 'PT Sans', sans-serif;
+    color: #929292;
+    text-decoration: none;
+}
+/* Shop list start */
+.shopList form{
+    margin-bottom: 40px;
+}
+.shopList form .form-group{
+    width: 290px;
+}
+.shopList > div > div > article > p{
+    color: #727374;
+    line-height: 34px;
+    font-size: 15px;
+}
+.shopList .listDetail figure > a > img{
+    width: 290px;
+}
+.shopList .listDetail{
+    border: 1px solid #e8e7e4;
+    width: 290px;
+    padding-bottom: 30px;
+}
+.shopList .listDetail h4{
+    margin-top: 30px;
+}
+.shopList .listDetail h4 > a{
+    color: #24292d;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.shopList .listDetail p{
+    font-size: 15px;
+}
+.shopList .listDetail > img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.shopList .listDetail > ul li a > .fa{
+    color: #b8b8b8;
+}
+.shopList .listDetail > ul{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid #e8e7e4;
+    border-bottom: 1px solid  #e8e7e4;
+}
+.shopList .listDetail > button{
+    padding: 10px 20px;
+    color: #24292d;
+    background: #fff;
+    border: 1px solid #e8e7e4;
+    border-radius: 50px;
+    font-size: 15px;
+    transition: ease 0.5s;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.shopList .listDetail > button:focus, 
+.shopList .listDetail > button:active {
+    outline: 2px dotted #c0bebd;
+}
+.shopList .listDetail > button:hover {
+    color: #d25113;
+    border: 1px solid #d25113;
+    transition: ease 0.5s;
+}
+.shopList .listDetail{
+    margin-bottom: 30px;
+}
+.shopList .listDetail > ul li a > .fa:hover{
+    color: red;
+    width: 50px;
+}
+.shopList .listDetail > button:hover {
+    color: red;
+    border: 1px solid red;
+    transition: all 0.5s ease 0s;
+}
+.filter button {
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    background: #d25513;
+    border-color: #d25513;
+    margin-right: 20px;
+}
+.filter button:hover{
+    background: white;
+    color: #d25513;
+}
+.filter {
+    border: 1px solid #e1e1e1;
+    margin: 10px;
     padding: 30px;
 }
 
-
-
-
-.form-control {
-    display: inline;
+.filter input[type="range"] {
+    display: block;
     width: 100%;
-    height: 34px;
-    padding: 6px 12px;
-    font-size: 14px;
-    line-height: 1.42857;
-    color: #555;
-    background-color: #FFF;
-    background-image: none;
-    border: 1px solid #CCC;
-    border-radius: 4px;
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset;
-    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
-}
-.food figure{
-    height: 75px;
-}
-.food p{
-    font-size: 13px;
-        
-}
-.form button {
-    margin-left: 45px;
-    border-radius: 20px;
-    padding: 10px;
-    background: #d25513;
-    color: white;
-    font-size: 10px;
-}
-
-.pictures{
+    margin-bottom: 20px;
     margin-top: 20px;
 }
-.pictures figure img{
-    width: 100%;
-    height: auto;
-    max-width: 400px;
-    margin: 0 auto;
+.topRated .rating {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    float: none;
+    padding-right: 20px;
     display: block;
 }
-.chef h2 {
-    font-family: 'Playball', cursive;
-  text-align: center;
-    font-size: 34px;
-}
-.chef p {
-    font-size: 12px;
-    margin-left: 25px;
+.pagination > li:first-child > a, .pagination > li:first-child > span {
+    border-radius: 25px;
+    width: 35px;
+    height: 35px;
+    display: none;
 }
 
-.chef p:nth-of-type(2){
-    text-align: center;
-    color:#7e8286;
-    
-}
+/*////---- SHOP LIST END ----////*/
 
-.chef span{
-    width: 10px;
+/*////---- SHOP PRODUCT CSS START ----/// 
+/* Product gallery start */
+.productGallery{
+    margin-top: 70px;
 }
+/* /Product gallery end */
 
-/*  /Main  */
+/* Product name start */
+.productName{
+    margin-top: 70px;
+    font-family: 'PT Sans', sans-serif;
 
-/* footer */
-.footer{
-    background: #d25513;
 }
-.footer img {
-    width: 15%;
-    padding-top: 10px;
+.productName a{
+    font-family: 'PT Sans', sans-serif;
+    text-decoration: none;
+    color: #666666;
+    font-size: 13px;
 }
-.footer .list-inline {
-    margin-top: 10px;
+.productName h3{
+    font-size: 24px;
+    color: #24292d;
+    font-weight: bold;
+    margin: 0 0 20px 0;
+}
+.productName > div:first-child{
+    border-bottom: 1px solid #ecebe8;
+}
+.productName > div:first-child > div a:first-of-type{
+    margin-right: 10px;
+}
+.productName > div:first-child > div a:last-of-type{
     margin-left: 10px;
 }
-.footer p{
-    color: white;
-    font-size: 11px;
+
+.productName > div:first-child p{
+    display: inline-block;
+    margin: 20px 0 30px 0;
 }
-.footer p:last-of-type{
+.productName > div:first-child p:last-of-type{
+    text-decoration: line-through;
+
+}
+
+.productName > div:first-child p:last-of-type {
+    color: #e1e1e1;
+}
+.productName > div:nth-child(2) p:first-child{
+    margin-top: 30px;  
+}
+
+.productName > div:nth-child(2) p{
+    margin-top: 20px;  
+}
+.productName > div:nth-child(2) p:nth-child(3){
+    margin-bottom: 30px;  
+}
+.productName > div:nth-child(2) form .form-group{
+    display: inline-block;
+    margin: 10px;
+}
+.productName > div:nth-child(2) form .form-group .form-control{
+    display: inline-block;
+}
+.productName > div:nth-child(3){
+    margin: 35px 0 35px 0;
+}
+.productName > div:nth-child(3) > .number{
+    width: 25px;
+}
+.productName > div:nth-child(3) > button:first-of-type{
+    border: 1px solid #ecebe8;
+    border-right: none;
+    background: #fff;
+    padding: 1px 5px;
+}
+.productName > div:nth-child(3) > button:nth-of-type(2){
+    border: 1px solid #ecebe8;
+    border-left: none;
+    background: #fff;
+    padding: 1px 6px;
+}
+.productName > div:nth-child(3) input{
+    border: 1px solid #ecebe8;
+    border-left: none;
+    border-right: none;
+}
+.productName > div:nth-child(3) > button:nth-of-type(3){
+    padding: 9px 20px;
+    color: #fff;
+    background: #d25113;
+    border: 1px solid #d25113;
+    border-radius: 50px;
+    font-size: 12px;
+    box-shadow: none;
+    transition: ease 0.5s;
+    font-weight: bold;
+    margin: 0 10px 0 10px;
+}
+
+.productName > div:nth-child(3) > button:nth-of-type(3):focus, 
+.productName > div:nth-child(3) > button:nth-of-type(3):active {
+    outline: 1px dotted #c0bebd;
+}
+.productName > div:nth-child(3) > button:nth-of-type(3):hover {
+    color: #fff;
+    background: #aa4008;
+    transition: ease 0.5s;
+}
+.productName > div:nth-child(3) ul{
+    display: inline-block
+
+}
+.productName > div:nth-child(3) ul > li > a{
+    color: #929292;  
+}
+.productName > div:nth-child(3) div{
+    padding: 30px 0 30px 0;
+}
+.productName > div:nth-child(3) div p{
+    display: inline-block;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.productName > div:nth-child(3) div ul{
+    display: inline-block;
+}
+.productName > div:nth-child(3) div ul li{
+    padding: 2px;
+}
+.shop{
+    margin-top: 40px;
+
+}
+.rating > span:hover:before {
+    content: "\2605";
+    position: absolute;
+    color: red;
+}
+.rating {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+    content: "\2605";
+    position: absolute;
+    color: red;
+}
+.rating {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    float: left;
+    padding-right: 20px;
+
+}
+.rating > span {
+    display: inline-block;
+    position: relative;
+    width: 1.1em;
+    color: red;
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+    content: "\2605";
+    position: absolute;
+
+}
+
+.productName > div:first-child p {
+    display: block;
+}
+
+.tabShop .nav-tabs > li {
+    display: block;
+    text-align: center;
+    background: white none repeat scroll 0% 0%;
+}
+.tabShop .nav-tabs > li > a {
+    color: black;
+}
+.tabShop .nav-tabs > li > a:hover{
+    border-color: #c5c6c8;
+}
+
+.tabShop .nav-tabs{
+    border: none;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+.tabShop h3{
+    font-family: 'Playball', cursive;
+    font-size: 28px;
+    color: black;
+}
+.tabShop p{
+    color: #c5c6c8;
+    font-family: "PT Sans",sans-serif;
+}
+
+.relatedProduct .fa{
+    color: #b8b8b8;
+}
+.relatedProduct .img-responsive{
+    width: 100%;
+}
+.relatedProduct figure{
+    margin-left: 140px;
+}
+.relatedProduct button {
+    margin-left: 120px;
+    padding: 10px;
+    border-radius: 20px;
+    color: #d25513;
+    background: white;
+    margin-bottom: 20px;
+    margin-top: 22px;
+}
+.relatedProduct button:hover{
+    border-color: red;
+    color: red;
+    background: white;
+    font-size: 18px;
+}
+
+.relatedProduct .list-inline {
+
+    margin-left: -2px;
+    list-style: outside none none;
+    border-top: 1px solid #e1e1e1;
+    padding: 10px;
+}
+
+.relatedProduct .fa:hover{
+    color: red;
+    width: 50px;
+}
+.relatedProduct h2{
+    font-family: 'Playball', cursive;
+}
+.relatedProduct h4{
+    font-family: "PT Sans",sans-serif;
+}
+.tabShop{
+    margin-top: 88px;
+}
+
+
+
+
+
+
+/* /Product name end */
+/*////---- BLOG PRODUCT CSS END ----////*/
+
+/* All headings */
+.headings{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-family: 'PT Sans', sans-serif;
+    background: #64625f;
+    color: #fff;
+}
+.headings h2{
+    font-family: 'Playball', cursive;
+}
+.headings > .container > div > img{
+    margin-bottom: 40px;
+}
+.headings > .container > div > h2 > img{
+    width: 40px;
+}
+.headings p:first-of-type{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.headings p:last-of-type{
+    max-width: 66%;
+}
+/* All headings */
+/* All headingSecond */
+.headingSecond > img{
+    color: #24292d;
+    margin-top: 110px;
+    margin-bottom: 65px;
+}
+.headingSecond > h2{
+    font-family: 'Playball', cursive;
+    font-size: 30px;
+}
+.headingSecond > p{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 12px;
+    margin-bottom: 65px;
+    font-weight: bold;
+}
+/* All headingSecond */
+
+
+
+
+/* All rows */
+article.menuProducts{
+    margin-bottom: 70px;
+}
+.products > p{
+    border-bottom: 1px dotted #24292d;
+    color: #393939
+}
+.products > p > a{
+    font-size: 12px;
+    line-height: 26px;
+    font-family: 'PT Sans', sans-serif;
+}
+.products > p > a,
+.products > h3 > a,
+.products > h4 > a{
+    color: #24292d;
+    background: #fff;
+    position: relative;
+    bottom: -7px;
+    text-decoration: none;
+}
+.products > h3 > a{
+    font-size: 18px;
+    font-family: Myriad Pro;
+}
+.products > h4 > a{
+    font-size: 16px;
+    font-family: Myriad Pro;
+}
+article.menuPrice{
+    margin-bottom: 70px;
+}
+.price > p{
+    font-size: 12px;
+    line-height: 26px;
+    position: relative;
+    bottom: -7px;
+}
+/* All rows */
+/* ThirdHeading all */
+.thirdHeading{
+    background: #707375;
+    color: #fff;
+    font-family: 'PT Sans', sans-serif;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.thirdHeading > h2 > img{
+    position: relative;
+    bottom: 15px;
+    margin-right: 10px;
+}
+.thirdHeading > h2{
+    line-height: 54px;
+    font-family: 'Playball', cursive;
+    font-size: 30px;
+    margin: 0px;
+}
+.thirdHeading > p{
+    font-size: 12px;
+    font-weight: bold;
+}
+/* ThirdHeading all */
+/* Social icons all */
+ul.socialCircles > li > button{
+    border: 1px solid #e8e7e4;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    background: #fff;
+    transition: ease 0.3s;
+}
+ul.socialCircles > li > button > span{
+    color: #72777b;
+}
+ul.socialCircles > li > button:hover{
+    border: 1px solid #bcbbb9;
+    background: #d4d4d4;
+    transition: ease 0.3s;
+}
+/* Social icons all */
+
+
+
+
+
+
+
+/*////---- FOR ALL PAGES FOOTER START ----////*/
+/* Five pics start */
+.fivePics article{
+    width: 100%;
+}
+.fivePics .container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+/* /Five pics end*/
+
+/* Footer start */
+footer{
+    background: #d25513;
+    font-family: 'PT Sans', sans-serif;
+    color: #fff;
+}
+footer img{
+    margin-top: 40px;
+    margin-bottom: 35px;
+}
+footer .list-inline>li {
+    padding-right: 12.5px;
+    padding-left: 12.5px;
+    margin-bottom: 30px;
+}
+footer ul.list-inline{
+    margin: 0px;
+}
+footer .list-inline>li a{
+    color: #e39977;
+    font-size: 19px;
+    transition: ease 0.3s;
+}
+footer .list-inline>li>a:hover,
+footer .list-inline>li>a:active,
+footer .list-inline>li>a:focus{
+    color: #fff;
+    transition: ease 0.3s;
+}
+footer div p{
+    color: #fff;
+    font-size: 15px;
+}
+footer div.container:last-child{
+    padding-bottom: 40px;
+}
+footer>div.container:last-child>a{
     color: #eec6ba;
+    font-size: 14px;
 }
-/* footer */
+footer>div.container:last-child>a:hover{
+    color: #fff;
+}
+/* /Footer end*/
+/*////---- FOR ALL PAGES FOOTER END ----////*/
+
+
