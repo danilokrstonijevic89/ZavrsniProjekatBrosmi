@@ -121,6 +121,7 @@ header section.headerTop a:active{
     color: #fff;
     text-shadow: none;
     margin-bottom: 40px;
+    padding: 10px;
 }
 .header .btn:focus, 
 .header .btn:active:focus, 
@@ -142,14 +143,12 @@ header section.headerTop a:active{
 
 
 
-/*////---- HOME PAGE CSS START ----////*/
+/*////---- INDEX PAGE CSS START ----////*/
 /*  Main  */
 main{
     margin-top: -20px;
 }
-/*  Slider  */
-/* Za slajder postoje eksterni slider_main.css i slider_responsive.css*/
-/*  /Slider  */
+
 
 /* PreciousSense */
 .preciousSense p{
@@ -521,7 +520,7 @@ main{
 }
 /* /Booking end */
 
-/*////---- HOME PAGE END ----////*/
+/*////---- INDEX PAGE END ----////*/
 
 
 
@@ -682,43 +681,43 @@ section.history > .container > .row > div:last-child > article > p > a:hover{
 /* /History end */
 
 /* Chef start */
-.chef{
+.chefOfDay{
     background: #f0f0f0;
     font-family: 'PT Sans', sans-serif;
 }
-.chef > .container > .row > div:first-child > article > h2{
+.chefOfDay > .container > .row > div:first-child > article > h2{
     margin-top: 70px;
     font-size: 70px;
     font-family: 'Playball', cursive;
     color: #d25513;
 }
-.chef > .container > .row > div:first-child > article > p:first-of-type{
+.chefOfDay > .container > .row > div:first-child > article > p:first-of-type{
     margin: 0px;
     font-size: 21px;
     font-weight: bold;
 }
-.chef > .container > .row > div:first-of-type > article > img{
+.chefOfDay > .container > .row > div:first-of-type > article > img{
     margin-top: 30px;
     margin-bottom: 35px;
 }
-.chef > .container > .row > div:first-child > article > p:last-of-type{
+.chefOfDay > .container > .row > div:first-child > article > p:last-of-type{
     margin-bottom: 40px;
     color: #72777b;
 }
-.chef > .container > .row > div{
+.chefOfDay > .container > .row > div{
     padding-top: 70px;
 }
-.chef a{
+.chefOfDay a{
     font-size: 21px;
     font-family: 'Playball', cursive;
     color: #72777b;
     transition: ease 0.3s;
 }
-.chef a:hover{
+.chefOfDay a:hover{
     color: #d25513;
     transition: ease 0.3s;
 }
-.chef a > img{
+.chefOfDay a > img{
     margin-left: 10px;
 }
 /* /Chef end */
@@ -1332,6 +1331,8 @@ h5.littleHeading{
 .london h3{
     font-family: 'PT Sans', sans-serif;
     font-size: 12px;
+    display: inline;
+    margin-left: 10px;
 }
 .london p{
     color: #72777b;
@@ -1505,7 +1506,8 @@ h5.littleHeading{
     font-size: 24px;
     color: #24292d;
     font-weight: bold;
-    margin: 0 0 20px 0;
+    margin: 20px;
+    padding-right: 43px;
 }
 .productName > div:first-child{
     border-bottom: 1px solid #ecebe8;
@@ -1629,20 +1631,20 @@ h5.littleHeading{
 .rating > span:hover ~ span:before {
     content: "\2605";
     position: absolute;
-    color: red;
+  
 }
 .rating {
     unicode-bidi: bidi-override;
     direction: rtl;
     float: left;
-    padding-right: 20px;
+    padding-left: 20px;
 
 }
 .rating > span {
     display: inline-block;
     position: relative;
     width: 1.1em;
-    color: red;
+    color: #d25513;
 }
 .rating > span:hover:before,
 .rating > span:hover ~ span:before {
@@ -1677,10 +1679,14 @@ h5.littleHeading{
     font-family: 'Playball', cursive;
     font-size: 28px;
     color: black;
+
 }
 .tabShop p{
     color: #c5c6c8;
     font-family: "PT Sans",sans-serif;
+}
+.tabShop{
+    margin-bottom: 120px;
 }
 
 .relatedProduct .fa{
@@ -1720,8 +1726,12 @@ h5.littleHeading{
     color: red;
     width: 50px;
 }
-.relatedProduct h2{
-    font-family: 'Playball', cursive;
+
+.relatedProduct h2 {
+    font-family: "Playball",cursive;
+    margin-top: 90px;
+    margin-bottom: 40px;
+    font-size: 38px;
 }
 .relatedProduct h4{
     font-family: "PT Sans",sans-serif;
@@ -1930,4 +1940,6 @@ footer>div.container:last-child>a:hover{
 /* /Footer end*/
 /*////---- FOR ALL PAGES FOOTER END ----////*/
 
+.firstFooter{
 
+}

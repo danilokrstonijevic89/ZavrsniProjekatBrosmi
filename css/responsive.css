@@ -60,6 +60,7 @@
         text-shadow: none;
         margin-left: 14px;
         margin-top: 6px;
+        padding: 10px;
     }
 
     /*////---- SHOP PRODUCT RESPONSIVE START ----////*/
@@ -114,6 +115,7 @@
     }
     .tabShop {
         border: 1px solid #c5c6c8;
+        height: 350px;
     }
     .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
         background: rgb(242, 242, 242) none repeat scroll 0% 0%;
@@ -149,7 +151,9 @@
     .tab-content {
         background: #FFF none repeat scroll 0% 0%;
         margin-bottom: 50px;
+        padding: 30px;
     }
+   
     /*////---- SHOP PRODUCT RESPONSIVE END ----////*/
 
 
@@ -247,10 +251,10 @@
     }
     .nav-tabs > li.active > a,
     .nav-tabs > li.active > a:hover,
-    .nav-tabs > li.active > a:focus {/* Potrebno je jos aditi */
+    .nav-tabs > li.active > a:focus {
         border-radius: 35px;
     }
-    .nav-tabs > li > a {/* Potrebno je jos aditi */
+    .nav-tabs > li > a {
         line-height: 120%;
         padding: 20px 40px;
         border-radius: 35px;
@@ -318,6 +322,9 @@
     }
     .booking p:last-of-type{
         font-size: 15px;
+    }
+    .littleForm {
+        
     }
     /* /Booking end */
     /*////---- HOME PAGE END ----////*/
@@ -622,9 +629,13 @@
         font-size: 15px;
         margin-bottom: 40px;
     }
+
+    .comment .form-group{
+        width: 100%;
+    }
     .comment > form > div:first-of-type{
         float: left;
-        width: 48%;
+        width: 43%;
         margin-right: 2%;
     }
     .comment > form > div:nth-of-type(2){
@@ -704,6 +715,7 @@
     }
     .ourLocations{
         height: 965px;
+        margin-bottom: 120px;
     }
     .ourLocations h2{
         margin-top: 120px;
@@ -1010,12 +1022,15 @@
 
 
     /*////---- HOME PAGE START ----////*/
-    /* Slajder poseduje eksterni main_slider.css i responsive_slider.css */
+    
     /* Booking start */
     .booking .forms h2{
         margin-bottom: 50px;
     }
     /* /Booking end */
+    
+    
+
     /*////---- HOME PAGE END ----////*/
 
 
@@ -1066,6 +1081,10 @@
     .blogList .mediaList{
         padding-right: 30px;
     }
+    .comment {
+    padding: 30px;
+    margin-bottom: 120px;
+}
     /* /List end */
     /*////---- BLOG LIST CSS END ----////*/
 
