@@ -1,8 +1,8 @@
 $(document).ready(function () {
 
-    //Podesavanje funkcije za brzinu automatske promene slike za prvi slajder na HOME stranivi i za slajder na ABOUT US stranivi.
+    //funkcija za podesavanje brzine na index.html i about.html stranici
     $('.carousel').carousel({
-        interval: 6000 //changes the speed
+        interval: 6000 //
     });
 
    
@@ -86,5 +86,38 @@ ga('send', 'pageview');
 
 
 
+  //Plus i minus
+$(document).ready(function () {
+  
+    $('.down').click(function () {
 
+        var txt = $('.number').val();
+        if (txt <= 1) {
+            $('.number').val(1);
+        } else {
+            txt--;
+            $('.number').val(txt);
+        }
+    });
+    $('.up').click(function () {
+        var txt = $('.number').val();
+        txt++;
+        $('.number').val(txt);
+    });
+
+
+
+
+
+    $('.heart').click(function (e) {
+        e.preventDefault();
+        $('.fa-heart').toggleClass('.fa-heart-o');
+    });
+    
+    $('.eyes').click(function (e) {
+        e.preventDefault();
+        $('.fa .fa-eye').toggleClass('.fa .fa-eye-slash');
+    });
+    
+});
 

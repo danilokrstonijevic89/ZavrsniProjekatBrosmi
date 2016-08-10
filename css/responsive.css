@@ -124,8 +124,8 @@
         border-radius: 0px;
     }
     .relatedProduct button {
-        margin-left: 17px;
-        padding: 10px;
+        margin-left: 7px;
+        padding: 5px;
         border-radius: 20px;
         color: #D25513;
         background: #FFF none repeat scroll 0% 0%;
@@ -139,7 +139,7 @@
         font-size: 14px;
     }
     .relatedProduct figure {
-        margin-left: 35px;
+        margin-left: 20px;
     }
     .relatedProduct h2 {
         font-family: "Playball",cursive;
@@ -153,7 +153,7 @@
         margin-bottom: 50px;
         padding: 30px;
     }
-   
+
     /*////---- SHOP PRODUCT RESPONSIVE END ----////*/
 
 
@@ -163,9 +163,7 @@
         margin-top: 120px;
     }
     .shopList {
-        margin-left: 0px;
-        margin-right: 0px;
-        padding: 0px;
+        margin-top: 100px;
     }
     .shopList > div > div > article > p {
         text-align: left;
@@ -192,11 +190,13 @@
         width: auto;
         padding: 10px;
     }
-    .shopRight .categories{
+    .shopRight .categories {
         width: auto;
+        margin-top: 50px;
     }
     .shopRight .filter{
         width: auto;
+        margin-top: 100px;
     }
     .filter{
         padding: 10px;
@@ -224,12 +224,12 @@
 
 
 
-    /*////---- HOME PAGE START ----///  min-width 768px  /*/
-    /* Slajder poseduje eksterni main_slider.css i responsive_slider.css */
+    /*////---- INDEX PAGE START ----///  min-width 768px  /*/
+
 
     /* PreciousSense */
     .preciousSense p{
-        font-size: 21px;
+        font-size: 22px;
         font-family: 'Source Sans Pro', sans-serif;
         font-weight: bold;
         color: #24292d;
@@ -256,9 +256,9 @@
     }
     .nav-tabs > li > a {
         line-height: 120%;
-        padding: 20px 40px;
-        border-radius: 35px;
-        font-size: 20px;
+        padding: 10px 30px;
+        border-radius: 5px;
+        font-size: 25px;
     }
     /* /Tab */
 
@@ -275,18 +275,18 @@
     /* /PreciousSense */
 
     /* Special Offers starts */
-    .specialOffers .mediaContent h2{
+    .special .mediaContent h2{
         text-align: left;
         font-size: 36px;
         margin-top: 0px;
     }
-    .specialOffers .mediaContent p:first-of-type{
+    .special .mediaContent p:first-of-type{
         font-family: 'Playball', cursive;
         font-size: 24px;
         text-align: left;
         color: #d25113;
     }
-    .specialOffers .mediaContent .media{
+    .special .mediaContent .media{
         margin: 10px;
     }
     /* /Special Offers end */
@@ -323,11 +323,13 @@
     .booking p:last-of-type{
         font-size: 15px;
     }
-    .littleForm {
-        
+    .booking .form-control {
+        height: 35px;
+        padding: 0px;
+        width: 210px;
     }
     /* /Booking end */
-    /*////---- HOME PAGE END ----////*/
+    /*////---- INDEX PAGE END ----////*/
 
 
 
@@ -581,14 +583,14 @@
     /* /Related posts end */ 
 
     /* William start */ 
-    .william{
+    .carte {
         padding: 30px;
         margin-top: 20px;
         margin-bottom: 40px;
     }
-    .william .media-left, 
-    .william .media-right, 
-    .william .media-body {
+    .carte .media-left, 
+    .carte .media-right, 
+    .carte .media-body {
         display: table-cell;
     }
     /* /William end */
@@ -618,51 +620,52 @@
     }
     /* /Pagination end */
 
-    /* Comment start */
-    .comment{
+    /* replay start */
+    .replay{
         padding: 30px;
+        margin-bottom: 100px;
     }
-    .comment h3{
+    .replay h3{
         font-size: 14px;
     }
-    .comment > p{
+    .replay > p{
         font-size: 15px;
         margin-bottom: 40px;
     }
 
-    .comment .form-group{
+    .replay .form-group{
         width: 100%;
     }
-    .comment > form > div:first-of-type{
+    .replay > form > div:first-of-type{
         float: left;
         width: 43%;
         margin-right: 2%;
     }
-    .comment > form > div:nth-of-type(2){
+    .replay > form > div:nth-of-type(2){
         float: right;
         width: 48%;
         margin-left: 2%;
     }
-    /* /Comment end */
+    /* /replay end */
 
     /* Right side bar start */
     .rightSide > article{
         width: auto;
     }
-    /* Rose start */
-    .rose{
+    /* barnet start */
+    .barnet {
         margin-top: 0px;
     }
 
-    .rose img{
+    .barnet img{
         margin-top: 0px;
     }
-    /* /Rose end */
+    /* barnet end */
 
 
 
     /* Forum instagram start */
-    .forumInsta div > img{
+    .forumInstagram div > img{
         width: auto;
         width: 42.6px;
     }
@@ -681,13 +684,13 @@
 
 
 
-    /*////---- BLOG LIST CSS START ----///  min-width 768px  /*/
+    /*////---- OUR BLOG LIST CSS START ----///  min-width 768px  /*/
     .blogList .mediaList button{
         padding: 17px 45px;
         color: #24292d;
         left: -84px;
     }
-    /*////---- BLOG LIST CSS END ----////*/
+    /*////---- OUR BLOG LIST CSS END ----////*/
 
 
     /*////---- CONTANT US CSS START ----////*/
@@ -755,6 +758,9 @@
     /* /Five pics end*/
     /*////---- FOR ALL PAGES FOOTER END ----////*/
 }
+
+
+
 @media only screen and (min-width: 992px){
     /*////---- FOR ALL PAGES HEADER START ----////*/
     /* Header top */
@@ -796,34 +802,34 @@
 
 
 
-    /*////---- HOME PAGE START ----///  min-width 992px  /*/
+    /*////---- INDEX PAGE START ----///  min-width 992px  /*/
 
 
-    /* Special Offers starts */
-    .specialOffers{
+    /* Special  starts */
+    .special{
         margin-top: 120px;
         margin-bottom: 120px;
         font-family: 'PT Sans', sans-serif;
     }
-    .specialOffers .sideContent{
+    .special .sideContent{
         padding-right: 15px;
     }
-    .specialOffers .sideContent p:first-child {
+    .special .sideContent p:first-child {
         font-size: 24px;
         line-height: 32px;
     }
-    .specialOffers .sideContent h2{
+    .special .sideContent h2{
         font-size: 18px;
     }
-    .specialOffers .sideContent p:nth-of-type(2) {
+    .special .sideContent p:nth-of-type(2) {
         font-size: 15px;
         line-height: 24px;
     }
-    .specialOffers .sideContent p:nth-of-type(3) {
+    .special .sideContent p:nth-of-type(3) {
         font-size: 15px;
         line-height: 24px;
     }
-    .specialOffers .mediaContent > p{
+    .special .mediaContent > p{
         margin-bottom: 60px;
     }
     /* /Special Offers end */
@@ -866,10 +872,11 @@
         font-size: 60px;
     }
     .booking .forms button {
-        margin-top: 0px;
+        margin-top: 70px;
+        margin-right: 60px;
     }
     /* /Booking End */
-    /*////---- HOME PAGE END ----////*/
+    /*////---- INDEX PAGE END ----////*/
 
 
 
@@ -919,7 +926,7 @@
 
 
 
-    /*////---- BLOG PAGE CSS START ----///  min-width 992px  /*/
+    /*////---- BLOG  CSS START ----///  min-width 992px  /*/
     .first{
         margin-top: 0px;
     }
@@ -933,24 +940,24 @@
     /* /Homemade pizza end */
 
     /* Right side bar start */
-    .rose img{
+    .barnet img{
         margin: 10px 10px 10px 10px;
     }
     /* Forum instagram start */
-    .forumInsta div > img{
+    .forumInstagram div > img{
         width: auto;
         width: 67px;
     }
     /* /Forum instagram end */
-    /* /Right side bar end */
-    /*////---- BLOG PAGE CSS END ----////*/
+
+    /*////---- BLOG  CSS END ----////*/
 
 
 
 
 
 
-    /*////---- BLOG LIST CSS START ----///  min-width 992px  /*/
+    /*////---- OUR BLOG LIST CSS START ----///  min-width 992px  /*/
     .blogList div.mediaList{
         max-width: 100%;
     }
@@ -967,15 +974,14 @@
         padding-right: 10px;
         text-align: left;
     }
-    /*////---- BLOG LIST CSS END ----////*/
+    /*////----OUR BLOG LIST CSS END ----////*/
 
     /*////---- SHOP PRODUCT CSS START ----////*/
     .relatedProduct figure {
-        margin-left: 60px;
+        margin-left: 40px;
     }
-
     .relatedProduct button {
-        margin-left: 45px;
+        margin-left: 35px;
     }
     .productGallery{
         margin-top: 120px;
@@ -998,6 +1004,66 @@
 
 
 }
+
+
+
+
+/*////---- LOGIN CSS START ----///  min-width 992px  /*/
+.sign > div > div > div > article > form > .form-group{
+    width: 70%;
+}
+.sign > div > div > div h2{
+    margin-top: 120px;
+    margin-bottom: 70px;
+    margin-right: 100px;
+    font-size: 70px;
+}
+.sign > div > div > div > article > form{
+    margin-bottom: 120px;
+    margin-right: 20px;
+}
+
+.sign > div > div > div:last-child article {
+    margin: 100px 0px 80px 20px;
+    border-color: red;
+}
+
+/*////---- /LOGIN CSS END ----////*/
+
+
+/*////---- FORGET CSS START ----///  min-width 992px  /*/
+.forgot button {
+    padding: 10px 40px;
+    color: #FFF;
+    background: #D25113 none repeat scroll 0% 0%;
+    border: 1px solid #D25113;
+    border-radius: 50px;
+    font-size: 16px;
+    box-shadow: none;
+    transition: all 0.5s ease 0s;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+/*////---- /FORGET CSS END ----////*/
+
+
+
+
+/*//// REGISTRATION CSS START  /*/
+#dateBirth .form-group{
+    display: inline-block;
+    width: 24%;
+}
+.registration > .preciousSense > div:nth-child(2) > .tab-content {
+    padding: 20px 0 120px 0;
+}
+registration > .preciousSense p {
+    margin-top: 60px;
+    color: #D25513;
+}
+/*////REGISTRATION CSS END////*/
+
 @media only screen and (min-width: 1200px){
     /*////---- FOR ALL PAGES HEADER START ----////*/
     /* Header */
@@ -1021,17 +1087,17 @@
 
 
 
-    /*////---- HOME PAGE START ----////*/
-    
+    /*////---- INDEX PAGE START ----////*/
+
     /* Booking start */
     .booking .forms h2{
         margin-bottom: 50px;
     }
     /* /Booking end */
-    
-    
 
-    /*////---- HOME PAGE END ----////*/
+
+
+    /*////---- INDEX PAGE END ----////*/
 
 
 
@@ -1055,25 +1121,25 @@
 
 
 
-    /*////---- BLOG PAGE CSS START ----///  min-width 1200px  /*/
+    /*////---- BLOG  CSS START ----///  min-width 1200px  /*/
     /* Right side bar start */
-    .rose{
+    .barnet {
         padding: 30px;
     }
-    .rose img{
+    .barnet img{
         margin: 24px 24px 20px 24px;
         margin-top: 30px;
     }
     /* Forum instagram start */
-    .forumInsta div > img{
+    .forumInstagram div > img{
         width: auto;
         width: auto;
     }
     /* /Forum instagram end */
     /* /Right side bar end */
-    /*////---- BLOG PAGE CSS END ----////*/
+    /*////----  BLOG CSS END ----////*/
 
-    /*////---- BLOG LIST CSS START ----////*/
+    /*////---- OUR BLOG LIST CSS START ----////*/
     /* List start */
     .blogList .mediaList img{
         margin-right: 30px;
@@ -1082,21 +1148,21 @@
         padding-right: 30px;
     }
     .comment {
-    padding: 30px;
-    margin-bottom: 120px;
-}
+        padding: 30px;
+        margin-bottom: 120px;
+    }
     /* /List end */
-    /*////---- BLOG LIST CSS END ----////*/
+    /*////---- OUR BLOG LIST CSS END ----////*/
 
 
 
     /*////---- SHOP PRODUCT CSS START ----////*/
     .relatedProduct figure {
-        margin-left: 85px;
+        margin-left: 62px;
     }
 
     .relatedProduct button {
-        margin-left: 65px;
+        margin-left: 45px;
     }
 
 
@@ -1106,6 +1172,17 @@
 
 
     /*////---- SHOP PRODUCT CSS END ----////*/
+
+    /*////---- SHOP LIST CSS START ----////*/
+
+    .pagination > li:last-of-type {
+        float: right;
+        margin-right: 150px;
+    }
+    .shop {
+        margin-bottom: 120px;
+    }
+    /*////---- SHOP LIST CSS END ----////*/
 
 
 

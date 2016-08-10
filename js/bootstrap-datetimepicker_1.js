@@ -1,5 +1,4 @@
-
-/* =========================================================
+﻿/* =========================================================
  * bootstrap-datetimepicker.js
  * =========================================================
  * Copyright 2012 Stefan Petre
@@ -1360,6 +1359,7 @@
        Method show() does not set display css correctly and datetimepicker is not shown.
        Changed to .css('display', 'block') solve the problem.
        See https://github.com/vitalets/x-editable/issues/37
+
        In jquery 1.7.2+ everything works fine.
        */
       //this.picker.find('>div').hide().filter('.datetimepicker-'+DPGlobal.modes[this.viewMode].clsName).show();
