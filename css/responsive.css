@@ -229,13 +229,16 @@
 
     /* PreciousSense */
     .preciousSense p{
-        font-size: 22px;
+        font-size: 16px;
         font-family: 'Source Sans Pro', sans-serif;
         font-weight: bold;
         color: #24292d;
         margin-top: 120px;
         margin-bottom: 0px;
+
     }
+
+  
     .preciousSense h2{
         font-size: 60px;
         font-family: 'Playball', cursive;
@@ -758,12 +761,31 @@
     /* /Five pics end*/
     /*////---- FOR ALL PAGES FOOTER END ----////*/
 }
-.registration > .preciousSense > div:nth-child(2) > .tab-content > .tab-pane > section > div .req .reqStar {
-    position: absolute;
-    right: -10px;
-    top: 0px;
-    margin-right: 150px;
+ /*////---- REGISTRATION CSS START ----///  min-width 768px  /*/
+    #dateBirth > label{
+        margin-right: 20px;
+    }
+    #gender{
+        text-align: left;
+    }
+    .registration .form-control {
+    display: block;
+    width: 200%;
+    height: 34px;
+  
 }
+#dateBirth > label {
+    margin-right: 160px;
+}
+.radio-inline + .radio-inline, .checkbox-inline + .checkbox-inline {
+    margin-top: 0;
+    margin-left: 10px;
+    display: inline;
+    margin-bottom: 40px;
+    position: absolute;
+}
+
+    /*////---- /REGISTRATION CSS END ----////*/
 
 
 @media only screen and (min-width: 992px){
@@ -1055,23 +1077,17 @@
 
 
 
-/*//// REGISTRATION CSS START  /*/
-#dateBirth .form-group{
-    display: inline-block;
-    width: 24%;
-}
-.registration > .preciousSense > div:nth-child(2) > .tab-content {
-    padding: 20px 0 120px 0;
-}
+ /*////---- REGISTRATION CSS START ----///  min-width 992px  /*/
+    #dateBirth .form-group{
+        display: inline-block;
+        width: 24%;
+    }
+    .registration > .preciousSense > div:nth-child(2) > .tab-content {
+        padding: 20px 0 120px 0;
+    }
+    /*////---- /REGISTRATION CSS END ----////*/
 
-    .registration > .preciousSense > div:nth-child(2) > .tab-content > .tab-pane > section > div .req .reqStar {
-    position: absolute;
-    right: -10px;
-    top: 0px;
-    margin-right: 220px;
-}
 
-/*////REGISTRATION CSS END////*/
 
 @media only screen and (min-width: 1200px){
     /*////---- FOR ALL PAGES HEADER START ----////*/
@@ -1195,5 +1211,5 @@
 
 
 
-
+  
 }

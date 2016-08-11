@@ -68,14 +68,15 @@
                                     <article class="signIn">
                                         <ul class="list-inline text-center">
                                             <li><a href="#">Subscribe</a></li>
-                                            <li><a href="#">Sign in</a></li>
+                                            <li><span class="fa fa-shopping-cart" aria-hidden="true"  data-toggle="modal" data-target="#myModal"></span></li>
                                             <li>
                                                 <div class="dropdown">
-                                                    <p class="dropdown-toggle" data-toggle="dropdown">End
+                                                    <p class="dropdown-toggle" data-toggle="dropdown">Sign in
                                                         <span class="caret"></span></p>
                                                     <ul class="dropdown-menu list-inline text-center">
-                                                        <li><a href="#">ß1</a></li>
-                                                        <li><a href="#">2</a></li>
+
+                                                        <li><a href="sign.html">Log in</a></li>
+                                                        <li><a href="registracion.html">Register</a></li>
                                                     </ul>
                                                 </div>
                                             </li>
@@ -1460,8 +1461,29 @@
                 </div>
             </footer>
             <!-- Footer end -->
+
         </main>
 
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                    </div>
+                    <div class="modal-body">
+                        ...
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
 
