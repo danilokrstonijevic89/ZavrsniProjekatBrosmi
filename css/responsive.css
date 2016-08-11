@@ -758,7 +758,12 @@
     /* /Five pics end*/
     /*////---- FOR ALL PAGES FOOTER END ----////*/
 }
-
+.registration > .preciousSense > div:nth-child(2) > .tab-content > .tab-pane > section > div .req .reqStar {
+    position: absolute;
+    right: -10px;
+    top: 0px;
+    margin-right: 150px;
+}
 
 
 @media only screen and (min-width: 992px){
@@ -1058,10 +1063,14 @@
 .registration > .preciousSense > div:nth-child(2) > .tab-content {
     padding: 20px 0 120px 0;
 }
-registration > .preciousSense p {
-    margin-top: 60px;
-    color: #D25513;
+
+    .registration > .preciousSense > div:nth-child(2) > .tab-content > .tab-pane > section > div .req .reqStar {
+    position: absolute;
+    right: -10px;
+    top: 0px;
+    margin-right: 220px;
 }
+
 /*////REGISTRATION CSS END////*/
 
 @media only screen and (min-width: 1200px){

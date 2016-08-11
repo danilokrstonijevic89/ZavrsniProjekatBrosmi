@@ -1,0 +1,135 @@
+.nav-pills > li > a {
+    border-radius: 4px;
+    color: black;
+    font-family: 'PT Sans', sans-serif;
+
+}
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    color: white;
+    background: #d25513;
+}
+
+figure.userfigureImg{
+    border: 1px solid #fff;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    background: #ccc;
+    border-radius: 50%;
+}
+h2.userInfoHeadline {
+    margin: 0px;
+    font-weight: 100;
+    padding-bottom: 20px;
+    display: inline;
+    font-family: 'Playball', cursive;
+}
+.logInDugme .btn-primary {
+    background: #d25513;
+    background-repeat: repeat-x;
+    border-color: #d25513;
+}
+.section4{
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+img.userProfilePic{
+    width: 150px;
+    height: 150px;
+    max-width: 100%;
+    max-height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 50%;
+}
+p.userInfoP{
+    color: #1377c5;
+    font-weight: 100;
+}
+a.userInfoEmail{
+    text-decoration: none;
+    color: #1377c5;
+    font-weight: 800;
+}
+
+h2.userInfoHeadline{
+    margin: 0;
+    font-weight: 100;
+    padding-bottom: 20px;
+    display: inline;
+}
+
+h2.userInfoHeadlineMessage{
+    margin: 0 0 20px 0;
+    font-weight: 100;
+    display: inline;
+}
+
+div.userTabContent{
+    background: #f2f2f2;
+    padding: 20px;
+}
+
+span.userMessage{
+    color: red;
+    padding-right: 20px;
+    font-weight: 800;
+}
+
+p.inboxMessage{
+    padding-top: 15px;
+}
+
+.messageDate, .messageTime{
+    color: gray;
+    padding: 5px;
+    font-weight: 800;
+}
+
+div.message,message2{
+    padding: 10px 15px;
+    border-bottom: 1px solid #b3b3b3;
+
+}
+
+div.message:hover, div.message:focus{
+    background: #e6e6e6;
+    transition: .5s;
+}
+
+
+span.fa-trash{
+    color: #1377c5;
+    font-size: 25px;
+}
+
+span.fa-reply{
+    padding-left: 20px;
+    font-size: 20px;
+    color: red;
+}
+
+i.reply{
+    color: red;
+    font-size: 15px;
+    padding-left: 8px;
+}
+
+#comment, #comment2, #comment3{
+    display: none;
+    border-color: gray;
+    box-shadow: none;
+
+}
+
+div.ifReplayed{
+    padding-left: 80px;
+}
+
+.replyCheckbox{
+    margin-top: 50px;
+}
