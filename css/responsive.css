@@ -238,7 +238,7 @@
 
     }
 
-  
+
     .preciousSense h2{
         font-size: 60px;
         font-family: 'Playball', cursive;
@@ -761,18 +761,18 @@
     /* /Five pics end*/
     /*////---- FOR ALL PAGES FOOTER END ----////*/
 }
- /*////---- REGISTRATION CSS START ----///  min-width 768px  /*/
-    #dateBirth > label{
-        margin-right: 20px;
-    }
-    #gender{
-        text-align: left;
-    }
-    .registration .form-control {
+/*////---- REGISTRATION CSS START ----///  min-width 768px  /*/
+#dateBirth > label{
+    margin-right: 20px;
+}
+#gender{
+    text-align: left;
+}
+.registration .form-control {
     display: block;
     width: 200%;
     height: 34px;
-  
+
 }
 #dateBirth > label {
     margin-right: 160px;
@@ -785,7 +785,7 @@
     position: absolute;
 }
 
-    /*////---- /REGISTRATION CSS END ----////*/
+/*////---- /REGISTRATION CSS END ----////*/
 
 
 @media only screen and (min-width: 992px){
@@ -1077,15 +1077,15 @@
 
 
 
- /*////---- REGISTRATION CSS START ----///  min-width 992px  /*/
-    #dateBirth .form-group{
-        display: inline-block;
-        width: 24%;
-    }
-    .registration > .preciousSense > div:nth-child(2) > .tab-content {
-        padding: 20px 0 120px 0;
-    }
-    /*////---- /REGISTRATION CSS END ----////*/
+/*////---- REGISTRATION CSS START ----///  min-width 992px  /*/
+#dateBirth .form-group{
+    display: inline-block;
+    width: 24%;
+}
+.registration > .preciousSense > div:nth-child(2) > .tab-content {
+    padding: 20px 0 120px 0;
+}
+/*////---- /REGISTRATION CSS END ----////*/
 
 
 
@@ -1211,5 +1211,5 @@
 
 
 
-  
+
 }

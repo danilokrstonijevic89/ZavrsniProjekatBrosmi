@@ -2091,6 +2091,30 @@ footer>div.container:last-child>a:hover{
     height: 34px;
     width: 70%;
 }
+.registration > .preciousSense > div:nth-child(2) .tab-content div:nth-of-type(3) .regBtn{
+    margin-top: 20px;
+    width: 200px;
+    padding: 15px 0 15px 0;
+    color: #fff;
+    background: #d25113;
+    border: 1px solid #d25113;
+    border-radius: 50px;
+    font-size: 14px;
+    box-shadow: none;
+    transition: ease 0.5s;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.registration > .preciousSense > div:nth-child(2) .tab-content div:nth-of-type(3) .regBtn:focus, 
+.registration > .preciousSense > div:nth-child(2) .tab-content div:nth-of-type(3) .regBtn:active {
+    outline: 2px dotted #c0bebd;
+    transition: ease 0.3s;
+}
+.registration > .preciousSense > div:nth-child(2) .tab-content div:nth-of-type(3) .regBtn:hover {
+    color: #fff;
+    background: #aa4008;
+    transition: ease 0.3s;
+}
 #dateBirth .form-group select{
     width: 90%;
 }
@@ -2122,9 +2146,15 @@ footer>div.container:last-child>a:hover{
     right: -10px;
     top: 0;
 }
-.registration > .preciousSense > div:nth-child(2) > .tab-content > .tab-pane > section > div .bug > form > .req .reqStar{
+.registration > .preciousSense > div:nth-child(2) > .tab-content > .tab-pane > section > div .bug > form > .req > .reqStar{
     position: absolute;
-    right: 25%;
+    right: 27%;
+    top: 0;
+    color: red;
+}
+.registration > .preciousSense > div:nth-child(2) > .tab-content > .tab-pane:nth-of-type(2) > section > div > div:nth-of-type(3) .bug > form > .req > .reqStar{
+    position: absolute;
+    right: 27%;
     top: 0;
     color: red;
 }
@@ -2132,7 +2162,4 @@ footer>div.container:last-child>a:hover{
     margin-top: 5px;
 }
 
-
-
 /*////---- /REGISTRATION CSS END ----////*/
-
