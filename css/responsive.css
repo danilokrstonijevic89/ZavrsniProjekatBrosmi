@@ -1088,6 +1088,18 @@
 /*////---- /REGISTRATION CSS END ----////*/
 
 
+/*////---- /ERROR css start ----////*/
+
+
+.error h2 {
+    text-align: center;
+    font-weight: bold;
+    color: #d25513;
+    font-size: 200px;
+    margin-top: 80px;
+}
+
+/*////---- /ERROR CSS END ----////*/
 
 @media only screen and (min-width: 1200px){
     /*////---- FOR ALL PAGES HEADER START ----////*/
