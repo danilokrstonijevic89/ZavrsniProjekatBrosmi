@@ -2,6 +2,10 @@ a{
     text-decoration: none;
     color: #fff;
 }
+
+a:hover, a:active, a:focus, a:visited{
+    outline:none !important;
+}
 ul li{
     list-style-type: none;
 }
@@ -99,6 +103,7 @@ header section.headerTop a:active{
 }
 .header .form-group{
     display: inline-block; 
+    margin-bottom: 40px;
 }
 .header .form-control{
     width: 200px;
@@ -1304,13 +1309,14 @@ h5.littleHeading{
 
 }
 
-.btn-default:hover, .btn-default:focus {
+.contactUsToday .btn-default:hover, .btn-default:focus {
     background-color: white;
     background-position: 0px -15px;
     border-color: red;
     color: red;
-    font-size: 20px;
+    font-size: 10px;
 }
+
 
 
 /* Contact us today end */
@@ -2231,3 +2237,69 @@ main.error{
     float: right;
 }
 /*////---- /VASA KORPA CSS END ----////*/
+
+
+
+/*////---- SHOPING CART CSS START ----////*/
+
+td a#buy{
+    color: #fff;
+    font-weight: bold;
+}
+td a#buy:hover{
+    color: #d25513; 
+    font-weight: bold;
+    margin-top: 40px;
+}
+div.shopingcart {
+    border: 2px solid #ccc;
+    width: 300px;
+    position: absolute;
+    right: 0px;
+    z-index: 1000;
+    background-color: #fff;
+    display: none;
+}
+div.shopingcart figure{
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-right: 10px;
+}
+
+
+.table > tfoot > tr > td {
+    line-height: 1.2857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+    color:  #d25513;
+}
+
+.table > tbody > tr > td, .table > tfoot > tr > td {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+    color: #d25513;
+}
+
+.lorem > p > a {
+    text-decoration: none;
+    color: #d25513;
+}
+.closeShop{
+    color: #d25513;
+
+}
+
+.historyProduct > p > a{
+    text-decoration: none;
+    color: #d25513;
+}
+
+.shopingcart a:hover{
+    color: #d25513 !important;
+}
+
+
+/*////---- SHOPING CART CSS END----////*/

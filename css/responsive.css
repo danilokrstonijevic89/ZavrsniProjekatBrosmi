@@ -58,8 +58,7 @@
         height: 40px;
         color: #FFF;
         text-shadow: none;
-        margin-left: 14px;
-        margin-top: 6px;
+        margin-left: 4px;
         padding: 10px;
     }
 
@@ -396,7 +395,7 @@
 
 
 
-    /*////---- MENU PAGE CSS START ----///  min-width 768px  /*/
+    /*////---- CLASIC PAGE CSS START ----///  min-width 768px  /*/
     /* Our menu start */
     .ourMenu{
         padding-top: 160px;
@@ -493,7 +492,7 @@
     .dessert .price > p{
         font-size: 12px;
     }
-    /*////---- MENU PAGE CSS END ----////*/
+    /*////---- CLASIC PAGE CSS END ----////*/
 
 
 
@@ -698,7 +697,7 @@
 
     /*////---- CONTANT US CSS START ----////*/
     /* Contact us today start */
-    .form-group {
+    .contactUsToday .form-group {
         border-radius: 0px;
         border-color: #E8E7E4;
         display: block;
@@ -707,7 +706,7 @@
         margin: 10px;
     }
 
-    textarea.form-control {
+    .contactUsToday textarea.form-control {
         height: auto;
         display: inline;
         width: 95%;
@@ -868,6 +867,7 @@
     .booking .form-control{
         height: 50px;
         padding: 6px 12px;
+        width: 350px;
     }
     .booking .littleForm {
         padding-bottom: 20px;
@@ -879,16 +879,14 @@
     .booking form .form-group {
         margin-bottom: 20px;
     }
-    .booking .littleForm .form-group{
-        width: 48%;
-        float: left;
-    }
+    
     .booking .littleForm .form-group:first-child{
         margin-right: 4%;
     }
-    .booking .littleForm .form-group {
-        margin-bottom: 0;
+    .littleForm .input-group {
+        width: 100px;
     }
+   
     .booking .forms h2{
         font-size: 60px;
     }
@@ -1131,6 +1129,9 @@
         margin-bottom: 50px;
     }
     /* /Booking end */
+    
+    
+    
 
 
 
@@ -1221,7 +1222,17 @@
     }
     /*////---- SHOP LIST CSS END ----////*/
 
+ /*////---- CONTACT US CSS START ----////*/
+    .contactUsToday .form-control {
+    width: 536px; 
+}
 
 
+
+.contactUsToday .formContact button {
+    width: 96%;
+    
+}
+ /*////---- CONTACT US CSS END ----////*/
 
 }

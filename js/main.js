@@ -1,4 +1,16 @@
-
+$(document).ready(function(){
+    //Shoping cart
+    
+    $("#shopingCart").click(function(){
+        $("div.shopingcart").toggle('slide');
+    });
+    
+    $("td a.closeShop").click(function(){
+       $(this).parent().parent().fadeOut();
+    });
+    
+    });
+    
 
 $(document).ready(function () {
 

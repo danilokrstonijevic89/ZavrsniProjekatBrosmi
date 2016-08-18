@@ -21,7 +21,7 @@
 
         <link rel="stylesheet" href="css/bootstrap.min.css">
 
-       
+
         <link href="css/datetimepicker.css" rel="stylesheet" type="text/css"/>
 
         <link href="css/slick-theme.css" rel="stylesheet" type="text/css"/>
@@ -65,10 +65,11 @@
                                     </article>
                                 </div>
                                 <div class="col-sm-6 col-md-5 col-lg-4">
-                                   <article class="signIn">
+                                    <article class="signIn">
                                         <ul class="list-inline text-center">
                                             <li><a   data-toggle="modal" data-target="#myModal">Subscribe</a></li>
-                                            <li><a href="#"><span class="fa fa-shopping-cart" aria-hidden="true"></span></a></li>
+
+                                            <li><a href="#" id="shopingCart"><span class="fa fa-shopping-cart" aria-hidden="true"></span></a></li>
                                             <li class="dropdown">
                                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sign in <span class="caret"></span></a>
                                                 <ul class="dropdown-menu list-inline text-center">
@@ -83,6 +84,49 @@
                             </div>
                         </div>
                     </div>
+                </div>
+                <div class="shopingcart">
+                    <table class="table">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <article class="">
+                                        <figure>
+                                            <a href="#"><img class="img-responsive" src='http://placehold.it/100x100' alt=""></a>
+                                        </figure>
+                                        <div class="lorem">
+                                            <p class=""><a href="">Lorem ipsum</a></p>
+
+                                        </div>
+                                    </article>
+                                </td>
+                                <td>2000 DIN</td>
+                                <td><a href="#" class="closeShop">X</a></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <article class="clearfix">
+                                        <figure>
+                                            <a href="#"><img class="img-responsive" src='http://placehold.it/100x100' alt=""></a>
+                                        </figure>
+                                        <div class="historyProduct">
+                                            <p class=""><a href="#">Lorem ipsum</a></p>
+                                        </div>
+                                    </article>
+                                </td>
+                                <td>2850 DIN</td>
+                                <td><a href="#" class="closeShop">X</a></td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td>TOTAL: <span class="">4850 din</span></td>
+                                <td colspan="2">
+                                    <a href="#l" class="btn btn-default" id="buy" >Buy</a>
+                                </td>
+                            </tr>
+                        </tfoot>
+                    </table>
                 </div>
             </section>
             <!-- /navbar top -->
@@ -1368,32 +1412,38 @@
                                     </div>
                                     <div class="col-sm-5">
                                         <article class="forms">
+                                                   
                                             <h2 class="text-center">Reservations</h2>
-                                            <form role="form">
-                                                <div class="form-group">
+                                            <form role="form">   
+                                                
+                                                <div class="form-group">   
+                                                    
                                                     <input type="text" class="form-control" id="name" placeholder="Name">
+                                                    
                                                 </div>
-                                                <div class="form-group">
+                                                <div class="form-group ">
                                                     <input type="email" class="form-control" id="email" placeholder="Email address...">
                                                 </div>
                                                 <div class="form-group">
 
-                                                    <div class="input-group date form_date col-md-5" data-date="" data-date-format="dd MM yyyy" data-link-field="dtp_input2" data-link-format="yyyy-mm-dd">
+                                                    <div class="input-group date form_date" data-date="" data-date-format="dd MM yyyy" data-link-field="dtp_input2" data-link-format="yyyy-mm-dd">
                                                         <input class="form-control" size="16" type="text" value="" readonly>
                                                         <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span>
                                                     </div>
                                                     <input type="hidden" id="dtp_input2" value="" /><br/>
                                                 </div>
+                                                
                                                 <div class="littleForm clearfix">
                                                     <div class="form-group">
 
-                                                        <div class="input-group date form_time" data-date="" data-date-format="hh:ii" data-link-field="dtp_input3" data-link-format="hh:ii">
+                                                        <div class="input-group date form_time col-sm-6" data-date="" data-date-format="hh:ii" data-link-field="dtp_input3" data-link-format="hh:ii">
                                                             <input class="form-control" size="16" type="text" value="" readonly>
                                                             <span class="input-group-addon"><span class="glyphicon glyphicon-time"></span></span>
                                                         </div>
                                                         <br>
-
+                                                        <div>
                                                         <input type="text" class="form-control" id="phone" placeholder="Phone number">
+                                                        </div>
                                                     </div>
                                                 </div>
                                                 <div class="form-group">
@@ -1405,7 +1455,9 @@
                                                     </select>
                                                 </div>
                                                 <button type="submit" class="btn btn-default">Submit</button>
+                                             
                                             </form>
+
                                         </article>
                                     </div>
                                 </div>
@@ -1462,7 +1514,7 @@
         </main>
 
 
-  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -1487,14 +1539,14 @@
         <script src="js/vendor/jquery-3.1.0.slim.min.js" type="text/javascript"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.js"><\/script>')</script>
 
-        
+
         <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
         <script src="js/slick.js" type="text/javascript"></script>
 
-     
 
-   
+
+
         <script src="js/bootstrap-datetimepicker_1.js" type="text/javascript"></script>
         <script src="js/main.js"></script>
 
