@@ -40,7 +40,7 @@
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
     <body>
-        <header>
+          <header>
             <!-- Navbar top -->
             <section class="headerTop">
                 <div class="container">
@@ -66,8 +66,8 @@
                                 <div class="col-sm-6 col-md-5 col-lg-4">
                                     <article class="signIn">
                                         <ul class="list-inline text-center">
-                                             <li><a   data-toggle="modal" data-target="#myModal">Subscribe</a></li>
-                                            <li><a href="#"><span class="fa fa-shopping-cart" aria-hidden="true" data-toggle="modal" data-target="#myModal"></span></a></li>
+                                            <li><a   data-toggle="modal" data-target="#myModal">Subscribe</a></li>
+                                            <li><a href="#" id="shopingCart"><span class="fa fa-shopping-cart" aria-hidden="true"></span></a></li>
                                             <li class="dropdown">
                                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sign in <span class="caret"></span></a>
                                                 <ul class="dropdown-menu list-inline text-center">
@@ -83,6 +83,49 @@
                         </div>
                     </div>
                 </div>
+                <div class="shopingcart">
+                    <table class="table">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <article class="">
+                                        <figure>
+                                            <a href="#"><img class="img-responsive" src='http://placehold.it/100x100' alt=""></a>
+                                        </figure>
+                                        <div class="lorem">
+                                            <p class=""><a href="">Lorem ipsum</a></p>
+
+                                        </div>
+                                    </article>
+                                </td>
+                                <td>2000 DIN</td>
+                                <td><a href="#" class="closeShop">X</a></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <article class="clearfix">
+                                        <figure>
+                                            <a href="#"><img class="img-responsive" src='http://placehold.it/100x100' alt=""></a>
+                                        </figure>
+                                        <div class="historyProduct">
+                                            <p class=""><a href="#">Lorem ipsum</a></p>
+                                        </div>
+                                    </article>
+                                </td>
+                                <td>2850 DIN</td>
+                                <td><a href="#" class="closeShop">X</a></td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td>TOTAL: <span class="">4850 din</span></td>
+                                <td colspan="2">
+                                    <a href="#l" class="btn btn-default" id="buy" >Buy</a>
+                                </td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
             </section>
             <!-- /navbar top -->
 
@@ -90,7 +133,7 @@
             <section class="header">
                 <nav class="navbar navbar-default">
                     <div class="container  clearfix">
-
+                        <!-- Brand and toggle get grouped for better mobile display -->
                         <div class="navbar-header">
                             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                                 <span class="sr-only">Toggle navigation</span>
@@ -98,7 +141,7 @@
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                             </button>
-                            <a class="navbar-brand" href="#"><img src="img/logoblack.png" alt="Logo"/></a>
+                            <a class="navbar-brand" href="#"><img src="img/logo.png" alt="Logo"/></a>
                         </div>
                         <!-- Collect the nav links, forms, and other content for toggling -->
                         <div class="collapse navbar-collapse clearfix" id="bs-example-navbar-collapse-1">
@@ -109,7 +152,7 @@
                                 <li><a href="#" class="text-uppercase">Reservations</a></li>
                                 <li><a href="#" class="text-uppercase">Gallery</a></li>
                                 <li><a href="blog.html" class="text-uppercase">Blog</a></li>
-                                <li><a href="contactUs" class="text-uppercase">Contact</a></li>
+                                <li><a href="contact.Us" class="text-uppercase">Contact</a></li>
                             </ul>
                             <form class="navbar-form navbar-right pull-right text-center" role="search">
                                 <div class="form-group">

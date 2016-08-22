@@ -759,34 +759,76 @@
     }
     /* /Five pics end*/
     /*////---- FOR ALL PAGES FOOTER END ----////*/
-}
-/*////---- REGISTRATION CSS START ----///  min-width 768px  /*/
-#dateBirth > label{
-    margin-right: 20px;
-}
-#gender{
-    text-align: left;
-}
-.registration .form-control {
-    display: block;
-    width: 200%;
-    height: 34px;
-
-}
-#dateBirth > label {
-    margin-right: 160px;
-}
-.radio-inline + .radio-inline, .checkbox-inline + .checkbox-inline {
-    margin-top: 0;
-    margin-left: 10px;
-    display: inline;
-    margin-bottom: 40px;
-    position: absolute;
-}
-
-/*////---- /REGISTRATION CSS END ----////*/
 
 
+  /* /REGISTRACION CSS START*/
+main.registration div.tab-content form#registratinForm select.form-control{
+    width: 90%;
+}
+
+main.registration div.tab-content form#registratinForm select.form-control + span{
+    right: 5%;
+}
+.registration .nav-tabs {
+    border-bottom: 20px none;
+    margin-top: 20px;
+    margin-left: 270px;
+}
+  /* /REGISTRACION CSS END*/
+  
+  
+   .table-responsive{
+        overflow-x:scroll;
+    }
+    main.userPanel select.form-control {
+        background-size: 10px;
+    }
+    .error h2{
+        font-size: 250px;
+    }
+    section.order1 .form-inline input,
+    section.order2 .form-inline input,
+    section.order3 .form-inline input,
+    section.order4 .form-inline input,
+    section.order5 .form-inline input{
+        width: 75%;
+    }
+    section.order1 .form-inline button,
+    section.order2 .form-inline button,
+    section.order3 .form-inline button,
+    section.order4 .form-inline button,
+    section.order5 .form-inline button{
+        width: 20%;
+    }
+    .customerInformation{
+        max-width: 100%;
+    }
+    .summaryView{
+        display: none;
+    }
+    .orderItems{
+        display: block;
+    }
+    .deliveryData,
+    .summaryView,
+    .orderItems,
+    .reviewOrder{
+        max-width: 100%;
+        margin-top: 50px;
+    }
+    .orderdItemInfo figure{
+        width: 80px;
+        height: 80px;
+    }
+    article.deliveryData  div.reviewOrder article{
+        text-align: left;
+    }
+    article.deliveryData div.reviewOrder div:first-child{
+        border-bottom: none; 
+        padding-bottom: 0;
+    }
+  
+ }
 @media only screen and (min-width: 992px){
     /*////---- FOR ALL PAGES HEADER START ----////*/
     /* Header top */
@@ -1075,16 +1117,6 @@
 
 
 
-/*////---- REGISTRATION CSS START ----///  min-width 992px  /*/
-#dateBirth .form-group{
-    display: inline-block;
-    width: 24%;
-}
-.registration > .preciousSense > div:nth-child(2) > .tab-content {
-    padding: 20px 0 120px 0;
-}
-/*////---- /REGISTRATION CSS END ----////*/
-
 
 /*////---- /ERROR css start ----////*/
 
@@ -1098,6 +1130,18 @@
 }
 
 /*////---- /ERROR CSS END ----////*/
+
+
+
+
+ /* /REGISTRACION CSS START*/
+
+.registration .nav-tabs {
+    border-bottom: 20px none;
+    margin-top: 20px;
+    margin-left: 370px;
+}
+  /* /REGISTRACION CSS END*/
 
 @media only screen and (min-width: 1200px){
     /*////---- FOR ALL PAGES HEADER START ----////*/
@@ -1234,5 +1278,16 @@
     
 }
  /*////---- CONTACT US CSS END ----////*/
+
+ 
+ 
+ /* /REGISTRACION CSS START*/
+
+.registration .nav-tabs {
+    border-bottom: 20px none;
+    margin-top: 20px;
+    margin-left: 470px;
+}
+  /* /REGISTRACION CSS END*/
 
 }

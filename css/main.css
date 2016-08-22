@@ -2083,92 +2083,66 @@ footer>div.container:last-child>a:hover{
 
 
 
+/*   Registration page   */
 
-
-/*////---- REGISTRATION CSS START ----////*/
-.registration > .preciousSense > div:nth-child(2) > .nav-tabs{
-    margin-bottom: 0px;
-    display: block;
-}
-.registration > .preciousSense > div:nth-child(2) > .tab-content{
-    margin-top: 40px;
-}
-.registration > .preciousSense > div:nth-child(2) > .tab-content > .tab-pane > section > div select{
-    height: 34px;
-    width: 70%;
-}
-.registration > .preciousSense > div:nth-child(2) .tab-content div:nth-of-type(3) .regBtn{
+.registration .nav-tabs{
+    border-bottom: 20px;
     margin-top: 20px;
-    width: 200px;
-    padding: 15px 0 15px 0;
-    color: #fff;
-    background: #d25113;
-    border: 1px solid #d25113;
-    border-radius: 50px;
-    font-size: 14px;
-    box-shadow: none;
-    transition: ease 0.5s;
-    font-weight: bold;
-    margin-bottom: 40px;
+    margin-left: 70px;
 }
-.registration > .preciousSense > div:nth-child(2) .tab-content div:nth-of-type(3) .regBtn:focus, 
-.registration > .preciousSense > div:nth-child(2) .tab-content div:nth-of-type(3) .regBtn:active {
-    outline: 2px dotted #c0bebd;
-    transition: ease 0.3s;
+.registration ul{
+    margin: 0 auto;
 }
-.registration > .preciousSense > div:nth-child(2) .tab-content div:nth-of-type(3) .regBtn:hover {
-    color: #fff;
-    background: #aa4008;
-    transition: ease 0.3s;
+main.registration div.container > div{
+    border-bottom: 1px solid #ccc;
 }
-#dateBirth .form-group select{
-    width: 90%;
+main.registration .nav a{ 
+    line-height: 20px;
+    font-size: 16px;
+    padding: 10px;
 }
-#dateBirth .form-group{
-    display: inline-block;
-    width: 21%;
-}
-#gender label{
-    margin-right: 20px;
-}
-#gender{
-    text-align: center;
-    padding-top: 5px;
-}
-.registration > .preciousSense p{
-    margin-top: 50px;
-    font-weight: normal;
-    font-size: 15px;
-}
-.registration > .preciousSense > div:nth-child(2) > .tab-content > .tab-pane > section > div .req{
-    position: relative;
-}
-.reqStar{
-    color: red;
-    font-size: 18px;
-}
-.registration > .preciousSense > div:nth-child(2) > .tab-content > .tab-pane > section > div .req .reqStar{
-    position: absolute;
-    right: -10px;
-    top: 0;
-}
-.registration > .preciousSense > div:nth-child(2) > .tab-content > .tab-pane > section > div .bug > form > .req > .reqStar{
-    position: absolute;
-    right: 27%;
-    top: 0;
-    color: red;
-}
-.registration > .preciousSense > div:nth-child(2) > .tab-content > .tab-pane:nth-of-type(2) > section > div > div:nth-of-type(3) .bug > form > .req > .reqStar{
-    position: absolute;
-    right: 27%;
-    top: 0;
-    color: red;
-}
-.registration > .preciousSense > div:nth-child(2) > .tab-content > .tab-pane > section form > .form-group{
-    margin-top: 5px;
+main.registration figure{
+    width: 150px;
+    height: 75px;
+    margin-bottom: 15px;
+    margin-top: 15px;
 }
 
-/*////---- /REGISTRATION CSS END ----////*/
+
+main.registration div.tab-pane{
+    padding-top: 20px;
+    border-top: 1px solid #ccc;
+}
+
+main.registration div.tab-content form#registratinForm .form-group,
+main.registration div.tab-content form#registratinFormFirm .form-group{
+    width: 95%;
+    position: relative;  
+}
+main.registration div.tab-content form#registratinForm select.form-control,
+main.registration div.tab-content form#registratinFormFirm select.form-control{
+    width: 95%;
+    position: relative;  
+    margin-bottom: 15px;
+}
+main.registration div.tab-content form#registratinForm .form-group span,
+main.registration div.tab-content form#registratinFormFirm .form-group span{
+    position: absolute;
+    right: -5%;
+    top: 0%;
+    color: red;
+}
+main.registration div.tab-content form#registratinForm select.form-control + span,
+main.registration div.tab-content form#registratinFormFirm select.form-control + span{
+    right: 3%;
+    position: absolute;
+    top: 0;
+    color: red;
+}
+
+/* Registration Page */
+
+
 
 
 /*////---- /error css start ----////*/
@@ -2207,7 +2181,7 @@ main.error{
     color: #4b64ad;
 }
 
-/*////---- /VASA KORPA CSS START ----////*/
+/*////---- /SHOPCART CSS START ----////*/
 
 
 
@@ -2216,27 +2190,43 @@ main.error{
     z-index: 0;
 }
 
-
-.table > tbody > tr > th > figure > img{
-    width: 10%;
-    margin-left: 20px;
+.shopCart .btn-default {
+    padding: 10px 20px;
+    color: #FFF;
+    background: #D25113 none repeat scroll 0% 0%;
+    border: 1px solid #D25113;
+    border-radius: 50px;
+    font-size: 12px;
+    box-shadow: none;
+    transition: all 0.5s ease 0s;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.shopCart .btn-default:hover{
+    color: #D25113;
+    background: white;
 }
 
-.vasaKorpa label{
-    font-size: 30px;
-    font-family: 'PT Sans', sans-serif;
+.purchase a.btn-primary {
+    padding: 0px 26px;
+    color: white;
+    background: #D25113;
+    border-color: #D25113;
+}
+.purchase a.btn-primary:hover{
+    background: white;
+    border-color: #D25113;
+    color: #D25113;
+    transform: scale(1.3);
+}
+.shopCart h3{
+     font-family: 'Playball', cursive;
+     font-size: 30px;
+    color: #D25113; 
 }
 
-.vasaKorpa .table {
-    width: 100%;
-    max-width: 100%;
-    margin-bottom: 120px;
-    margin-top: 80px;
-}
-.vasaKorpa button{
-    float: right;
-}
-/*////---- /VASA KORPA CSS END ----////*/
+/*////---- /SHOPCART CSS END ----////*/
 
 
 
@@ -2303,3 +2293,285 @@ div.shopingcart figure{
 
 
 /*////---- SHOPING CART CSS END----////*/
+
+
+/*  Order 1 Page */
+
+.summaryView{
+    padding: 5px 10px;
+    background: #ccc;
+    border-radius: 5px;
+    margin: 10px;
+}
+.summaryView i{
+    color: #337ab7;
+}
+.summaryView a{
+    text-decoration: none;
+}
+.orderItems{
+    display: none;
+    margin: 30px auto;
+}
+.customerInformation,
+.deliveryData{
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+section.order1,
+section.order2,
+section.order3,
+section.order4,
+section.order5{
+    position: relative;
+    z-index: 10;
+    top: -40px;
+    padding-top: 45px; 
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+#orderForm div.error-list ul{
+    list-style: none;
+    color: red;
+    font-size: 14px;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+.purchase a{
+    line-height: 40px;
+}
+.conditions{
+    margin: 20px 0;
+}
+.summaryView{
+    margin: 0 auto;
+}
+
+.orderdItemInfo figure{
+    width: 50px;
+    height: 50px;
+}
+.discount{
+    border-top: 1px solid #ccc;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.discount input{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+section.order1 .form-inline button,
+section.order2 .form-inline button,
+section.order3 .form-inline button,
+section.order4 .form-inline button,
+section.order5 .form-inline button
+{
+    width: 100%;
+}
+label.saveInformation {
+    font-weight: normal;
+}
+#zipCode{
+    margin-top: 15px;
+    width: 100%
+}
+#inputPhone{
+    margin-top: 15px;
+}
+div.orderdItemInfo figure{
+    position:relative;
+}
+div.orderdItemInfo figure span.badge{
+    position:absolute;
+    top: -5px;
+    right:-5px;
+   background: #d25513;
+}
+.conditions li a {
+    color: black;
+    text-decoration: none;
+}
+.conditions li a:hover{
+    color: #d25513;
+}
+
+.purchase a{
+   color: black;
+   text-decoration: none;
+}
+.purchase a:hover{
+     color: #d25513;
+}
+
+.purchase .btn{
+    background: #d25513;
+    border-color: #d25513;
+}
+.purchase .btn:hover{
+    background: white;
+    border-color: #d25513;
+    transform: scale(1.2);
+    color: #d25513;
+}
+/*  Order 1 Page */
+
+/*  Order 2 Page */
+
+.deliveryMethod{
+    margin: 15px 0;
+    padding: 10px;
+}
+.deliveryMethod div{
+    padding: 10px 15px 13px 0;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 10px;
+}
+.deliveryData,
+.summaryView,
+.orderItems,
+.reviewOrder{
+    max-width: 400px;
+}
+.deliveryData h3{
+    padding-bottom: 20px;
+}
+.deliveryData h3,
+.deliveryMethod h3{
+    font-size: 20px;
+}
+.purchase a.btn-primary{
+    padding: 0 16px;
+}
+.deliveryData h4{
+    font-weight: 400;
+}
+
+.discount .btn {
+    width: 50px;
+    height: 30px;
+    background: #D25113;
+    border-color: #D25113;
+    margin-left: 20px;
+}
+.discount .btn:hover{
+    background: white;
+    color:#D25113;
+    border-color: #D25113;
+    transform: scale(1.3);
+}
+.deliveryData a{
+    color: black;
+}
+.deliveryData a:hover{
+    text-decoration: none;
+    color: #D25113;
+}
+.deliveryData h3{
+     font-family: 'Playball', cursive;
+     font-size: 28px;
+     color: #D25113;
+}
+/*  Order 2 Page */
+
+
+/*  Order 3 Page */
+
+.deliveryData label{
+    font-weight: 400;
+}
+.deliveryData label input{
+    margin-right: 15px;
+}
+.deliveryData h4 {
+    font-weight: 400;
+}
+.addressForm{
+    display: none;
+}
+div.panel h4 a{
+    display: block;
+}
+
+/* Order 3 Page */
+
+
+/* Order 4 Page */
+
+article.deliveryData div.reviewOrder{
+    border: 1px solid rgb(204, 204, 204);
+    padding: 20px 5px;
+    border-radius: 5px;
+}
+article.deliveryData div.reviewOrder div:first-child{
+    border-bottom: 1px solid #ccc; 
+    padding-bottom: 30px;
+}
+article.deliveryData  div.reviewOrder article{
+    margin-top: 30px;
+    text-align: center;
+}
+article.deliveryData  div.reviewOrder h4{
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+div.orderNav{
+    line-height: 70px;
+}
+div.orderNav a.btn{
+    margin-top: 20px;
+}
+.orderNav .btn{
+    background: #D25113;;
+    color: white;
+    border-color: #D25113;
+}
+.orderNav .btn:hover{
+    background: white;
+    color: #D25113;
+    transform: scale(1.2);
+}
+/* Order 4 Page */
+
+/* Order 5 Page */
+
+.reviewOrder .confirmOrder{
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+.reviewOrder > h4,
+.reviewOrder > h5,
+.reviewOrder > h3
+{
+    margin: 35px 0;
+}
+.orderConfirm{
+    border-bottom: 2px solid #ccc;
+    padding: 20px 0;
+    margin-bottom: 25px;
+}
+.reviewOrder div.col-sm-6 article{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.reviewOrder div.customerInfo{
+     border: 2px solid #ccc;
+    border-radius: 5px;
+}
+.orderNav a {
+    color: black;
+}
+.orderNav a:hover {
+    color: #D25113;
+    text-decoration: none;
+}
+.reviewOrder h3{
+    font-family: 'Playball', cursive;
+    font-size: 32px;
+    color: #D25113;
+}
+.table-responsive .text-right{
+    color:black;
+}
+/* Order 5 Page */

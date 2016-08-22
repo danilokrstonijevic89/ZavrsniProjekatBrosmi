@@ -232,3 +232,41 @@ $(document).ready(function () {
         });
     });
 });
+/*  Shop Cart Page  */
+
+$('.addOne').click(function(){
+    var total = $(this).parent('span').siblings("input").val();
+    total++;
+    $(this).parent('span').siblings("input").val(total);
+});
+$('.removeOne').click(function(){
+    var total = $(this).parent('span').siblings("input").val();
+    if(total <= 0){
+        $(this).parent('span').siblings("input").val("0");
+    }else{
+      total--;
+    $(this).parent('span').siblings("input").val(total);  
+    }
+});
+$('.removeItem').click(function(){
+    $(this).parent("td").parent("tr").css("display", "none");
+});
+
+
+$(".showOrders").click(function(){
+    
+    $(".orderItems").slideToggle();
+    if ($(this).text() == " Show order summary")
+       $(this).text(" Hide order summary");
+    else
+       $(this).text(" Show order summary");
+});
+
+$('.sameBillAddress').click(function(){
+   $('.addressForm').hide("slow");
+});
+$('.billAddress').click(function(){
+   $('.addressForm').show("slow");
+});
+
+

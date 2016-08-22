@@ -40,7 +40,6 @@
     </head>
     <body>
 
-
         <header>
             <!-- Navbar top -->
             <section class="headerTop">
@@ -65,10 +64,10 @@
                                     </article>
                                 </div>
                                 <div class="col-sm-6 col-md-5 col-lg-4">
-                                 <article class="signIn">
+                                    <article class="signIn">
                                         <ul class="list-inline text-center">
-                                           <li><a   data-toggle="modal" data-target="#myModal">Subscribe</a></li>
-                                            <li><a href="#"><span class="fa fa-shopping-cart" aria-hidden="true" data-toggle="modal" data-target="#myModal"></span></a></li>
+                                            <li><a   data-toggle="modal" data-target="#myModal">Subscribe</a></li>
+                                            <li><a href="#" id="shopingCart"><span class="fa fa-shopping-cart" aria-hidden="true"></span></a></li>
                                             <li class="dropdown">
                                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sign in <span class="caret"></span></a>
                                                 <ul class="dropdown-menu list-inline text-center">
@@ -83,6 +82,49 @@
                             </div>
                         </div>
                     </div>
+                </div>
+                <div class="shopingcart">
+                    <table class="table">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <article class="">
+                                        <figure>
+                                            <a href="#"><img class="img-responsive" src='http://placehold.it/100x100' alt=""></a>
+                                        </figure>
+                                        <div class="lorem">
+                                            <p class=""><a href="">Lorem ipsum</a></p>
+
+                                        </div>
+                                    </article>
+                                </td>
+                                <td>2000 DIN</td>
+                                <td><a href="#" class="closeShop">X</a></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <article class="clearfix">
+                                        <figure>
+                                            <a href="#"><img class="img-responsive" src='http://placehold.it/100x100' alt=""></a>
+                                        </figure>
+                                        <div class="historyProduct">
+                                            <p class=""><a href="#">Lorem ipsum</a></p>
+                                        </div>
+                                    </article>
+                                </td>
+                                <td>2850 DIN</td>
+                                <td><a href="#" class="closeShop">X</a></td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td>TOTAL: <span class="">4850 din</span></td>
+                                <td colspan="2">
+                                    <a href="#l" class="btn btn-default" id="buy" >Buy</a>
+                                </td>
+                            </tr>
+                        </tfoot>
+                    </table>
                 </div>
             </section>
             <!-- /navbar top -->
@@ -105,12 +147,12 @@
                         <div class="collapse navbar-collapse clearfix" id="bs-example-navbar-collapse-1">
                             <ul class="nav navbar-nav list-inline text-center clearfix">
                                 <li><a href="index.html" class="text-uppercase">Home</a></li>
-                                <li><a href="About.html" class="text-uppercase">About us</a></li>
+                                <li><a href="about.html" class="text-uppercase">About us</a></li>
                                 <li><a href="clasic.html" class="text-uppercase">Menu</a></li>
                                 <li><a href="#" class="text-uppercase">Reservations</a></li>
                                 <li><a href="#" class="text-uppercase">Gallery</a></li>
-                                <li><a href="#" class="text-uppercase">Pages</a></li>
-                                <li><a href="#" class="text-uppercase">Contact</a></li>
+                                <li><a href="blog.html" class="text-uppercase">Blog</a></li>
+                                <li><a href="contact.Us" class="text-uppercase">Contact</a></li>
                             </ul>
                             <form class="navbar-form navbar-right pull-right text-center" role="search">
                                 <div class="form-group">
@@ -124,72 +166,72 @@
             </section>
             <!-- /navbar -->
         </header>
-        <main>
-        
+       
 
-                  
-            
-            
-            
-                   <main class="sign">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <article class="text-center">
-                            <h2>Log in</h2>
-                            <form id="myForm" role="form" data-toggle="validator">
-                                <div class="form-group">
-                                    <div class="input-group">
-                                        <span class="input-group-addon">@</span>
-                                        <input type="email" class="form-control" placeholder="example@example.com" data-error="Please type valid e-mail address!" required>
+
+
+
+
+
+            <main class="sign">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <article class="text-center">
+                                <h2>Log in</h2>
+                                <form id="myForm" role="form" data-toggle="validator">
+                                    <div class="form-group">
+                                        <div class="input-group">
+                                            <span class="input-group-addon">@</span>
+                                            <input type="email" class="form-control" placeholder="example@example.com" data-error="Please type valid e-mail address!" required>
+                                        </div>
+                                        <div class="help-block with-errors"></div>
                                     </div>
-                                    <div class="help-block with-errors"></div>
-                                </div>
 
-                                <div class="form-group clearfix">
-                                    <div class="input-group">
-                                        <input type="password" data-minlength="6" class="form-control" aria-describedby="basic-addon1" id="password" placeholder="Password" required>
-                                        <span class="input-group-addon"><span id="eye" class="fa fa-eye"></span></span>
+                                    <div class="form-group clearfix">
+                                        <div class="input-group">
+                                            <input type="password" data-minlength="6" class="form-control" aria-describedby="basic-addon1" id="password" placeholder="Password" required>
+                                            <span class="input-group-addon"><span id="eye" class="fa fa-eye"></span></span>
+                                        </div>
+                                        <div class="help-block">Minimum number of characters is 6</div>
                                     </div>
-                                    <div class="help-block">Minimum number of characters is 6</div>
-                                </div>
-                                <button>Confirm</button>
+                                    <button>Confirm</button>
 
-                                <a href="forgot.html" class="center-block">Forgot a password?</a>
-                            </form>
+                                    <a href="forgot.html" class="center-block">Forgot a password?</a>
+                                </form>
 
-                        </article>
-                    </div>
-                    <div class="col-md-6">
-                        <article class="text-center">
-                            <h3>Data Protection</h3>
+                            </article>
+                        </div>
+                        <div class="col-md-6">
+                            <article class="text-center">
+                                <h3>Data Protection</h3>
 
-                            <p class="text-justify">
-                                <strong>Your identification data Maxi will use for the realization of internet shopping.</strong> All information
-                                on this site are protected and registered data will not be used for 
-                                any other purpose and will not be available to other parties.
-                            </p>
+                                <p class="text-justify">
+                                    <strong>Your identification data Maxi will use for the realization of internet shopping.</strong> All information
+                                    on this site are protected and registered data will not be used for 
+                                    any other purpose and will not be available to other parties.
+                                </p>
 
-                            <p class="text-justify">
-                                At your request we will delete your personal information from the database Maxi internet shops. For more information contact Maxi online store, by calling:
-                            </p>
+                                <p class="text-justify">
+                                    At your request we will delete your personal information from the database Maxi internet shops. For more information contact Maxi online store, by calling:
+                                </p>
 
-                            <h4>BELGRADE</h4>
+                                <h4>BELGRADE</h4>
 
-                            <p>Tel.<a href="tel:+38111/488-3071"> +38111/464-3321</a></p>
-                            <p>Fax:<a href="tel:+38111/488-3071"> +38111/248-1211</a></p>
-                            <p>E-mail:<a href="mailto:example@rxample.com"> example@xample.com</a></p>
-                        </article>
+                                <p>Tel.<a href="tel:+38111/488-3071"> +38111/464-3321</a></p>
+                                <p>Fax:<a href="tel:+38111/488-3071"> +38111/248-1211</a></p>
+                                <p>E-mail:<a href="mailto:example@rxample.com"> example@xample.com</a></p>
+                            </article>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </main>
-                  
-            
-            
-            
+            </main>
 
-                   
+
+
+
+
+
 
             <!-- Five pics start -->
             <section class="fivePics">
@@ -233,63 +275,63 @@
                 </div>
             </footer>
             <!-- Footer end -->
-        
 
 
-     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
-                    </div>
-                    <div class="modal-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam a porttitor lectus. Quisque vitae bibendum mi,
-                            eu malesuada lacus. Praesent placerat sodales massa, non sodales odio iaculis ac. Cras volutpat, justo vitae fringilla tincidunt,
-                            nunc dolor vehicula nisl, ac aliquet tortor tellus vel ante. Maecenas euismod, ante in dictum gravida, magna leo porttitor sem,
-                            eu posuere lorem ligula quis turpis. Nam eget aliquam erat, vel ornare odio. Curabitur vitae lorem volutpat, 
-                            tristique augue eget, tincidunt lacus. Praesent in odio lorem. </p>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam a porttitor lectus. Quisque vitae bibendum mi,
+                                eu malesuada lacus. Praesent placerat sodales massa, non sodales odio iaculis ac. Cras volutpat, justo vitae fringilla tincidunt,
+                                nunc dolor vehicula nisl, ac aliquet tortor tellus vel ante. Maecenas euismod, ante in dictum gravida, magna leo porttitor sem,
+                                eu posuere lorem ligula quis turpis. Nam eget aliquam erat, vel ornare odio. Curabitur vitae lorem volutpat, 
+                                tristique augue eget, tincidunt lacus. Praesent in odio lorem. </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
 
-        <script src="js/vendor/jquery-3.1.0.slim.min.js" type="text/javascript"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.js"><\/script>')</script>
+            <script src="js/vendor/jquery-3.1.0.slim.min.js" type="text/javascript"></script>
+            <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.js"><\/script>')</script>
 
-        
-        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
-        <script src="js/slick.js" type="text/javascript"></script>
+            <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
-     
-
-   
-        <script src="js/bootstrap-datetimepicker_1.js" type="text/javascript"></script>
-        <script src="js/main.js"></script>
+            <script src="js/slick.js" type="text/javascript"></script>
 
 
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function (b, o, i, l, e, r) {
-                b.GoogleAnalyticsObject = l;
-                b[l] || (b[l] =
-                        function () {
-                            (b[l].q = b[l].q || []).push(arguments)
-                        });
-                b[l].l = +new Date;
-                e = o.createElement(i);
-                r = o.getElementsByTagName(i)[0];
-                e.src = '//www.google-analytics.com/analytics.js';
-                r.parentNode.insertBefore(e, r)
-            }(window, document, 'script', 'ga'));
-            ga('create', 'UA-XXXXX-X', 'auto');
-            ga('send', 'pageview');
-        </script>
+
+            <script src="js/bootstrap-datetimepicker_1.js" type="text/javascript"></script>
+            <script src="js/main.js"></script>
+
+
+
+            <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+            <script>
+                (function (b, o, i, l, e, r) {
+                    b.GoogleAnalyticsObject = l;
+                    b[l] || (b[l] =
+                            function () {
+                                (b[l].q = b[l].q || []).push(arguments)
+                            });
+                    b[l].l = +new Date;
+                    e = o.createElement(i);
+                    r = o.getElementsByTagName(i)[0];
+                    e.src = '//www.google-analytics.com/analytics.js';
+                    r.parentNode.insertBefore(e, r)
+                }(window, document, 'script', 'ga'));
+                ga('create', 'UA-XXXXX-X', 'auto');
+                ga('send', 'pageview');
+            </script>
     </body>
 </html>
