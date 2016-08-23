@@ -2227,7 +2227,13 @@ main.error{
 }
 
 
-
+.summaryView a:hover{
+    color: #D25113;
+}
+.summaryView a{
+    font-family: 'Playball', cursive;
+    font-size: 20px;
+}
 
 /*////---- /SHOPCART CSS END ----////*/
 
@@ -2456,7 +2462,6 @@ div.orderdItemInfo figure span.badge{
     height: 30px;
     background: #D25113;
     border-color: #D25113;
-    margin-left: 20px;
 }
 .discount .btn:hover{
     background: white;

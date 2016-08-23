@@ -827,6 +827,22 @@ main.registration div.tab-content form#registratinForm select.form-control + spa
         border-bottom: none; 
         padding-bottom: 0;
     }
+    
+     /* order 2 css start */
+     
+      .discount .btn {
+    width: 50px;
+    height: 30px;
+    background: #D25113;
+    border-color: #D25113;
+    margin-left: 20px;
+}
+     
+     
+     
+     
+     
+      /* order 2 css end */
   
  }
 @media only screen and (min-width: 992px){
